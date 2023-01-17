@@ -33,3 +33,13 @@
 #### [6. Why one should write a blog and its Importance.pdf](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10003.%2016-01-2023_Profile_Building/6.%20Why%20one%20should%20write%20a%20blog%20and%20its%20Importance_.pdf)
 
 #### [7. Different platforms to write blogs.pdf](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10003.%2016-01-2023_Profile_Building/7.%20Different%20platforms%20to%20write%20blogs.pdf)
+
+## 17-01-2023_Course-Basic
+
+#### [1. What is HTML.pdf](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10004.%2017-01-2023_Course-Basic/1.%20What%20is%20HTML%20_.pdf)
+
+#### [2. What is CSS.pdf](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10004.%2017-01-2023_Course-Basic/2.%20What%20is%20CSS_.pdf)
+
+#### [3. Why JavaScript Came into the picture.pdf](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10004.%2017-01-2023_Course-Basic/3.%20Why%20JavaScript%20Came%20into%20the%20picture%20_.pdf)
+
+#### [4. History of Javascript.pdf](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10004.%2017-01-2023_Course-Basic/4.%20History%20of%20Javascript.pdf)

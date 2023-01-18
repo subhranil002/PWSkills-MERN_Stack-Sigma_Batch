@@ -43,3 +43,11 @@
 #### [3. Why JavaScript Came into the picture.pdf](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10004.%2017-01-2023_Course-Basic/3.%20Why%20JavaScript%20Came%20into%20the%20picture%20_.pdf)
 
 #### [4. History of Javascript.pdf](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10004.%2017-01-2023_Course-Basic/4.%20History%20of%20Javascript.pdf)
+
+## 18-01-2023_Tools-Required-To-Get-Started
+
+#### [1. Tools required to get started.pdf](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10005.%2018-01-2023_Tools-Required-To-Get-Started/1.%20Tools%20required%20to%20get%20started.pdf)
+
+#### [2. Introduction to PW Skills Lab.pdf](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10005.%2018-01-2023_Tools-Required-To-Get-Started/2.%20Introduction%20to%20%20PW%20Skills%20Lab.pdf)
+
+#### [3. Details Features Explanation of PWSkills Lab.pdf](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10005.%2018-01-2023_Tools-Required-To-Get-Started/3.%20Details%20Features%20Explanation%20of%20PWSkills%20Lab.pdf)

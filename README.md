@@ -1,4 +1,4 @@
-# Resources
+# Codes & Resources
 
 ## 14-01-2023_Course-Introduction
 
@@ -51,3 +51,17 @@
 #### [2. Introduction to PW Skills Lab.pdf](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10005.%2018-01-2023_Tools-Required-To-Get-Started/2.%20Introduction%20to%20%20PW%20Skills%20Lab.pdf)
 
 #### [3. Details Features Explanation of PWSkills Lab.pdf](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10005.%2018-01-2023_Tools-Required-To-Get-Started/3.%20Details%20Features%20Explanation%20of%20PWSkills%20Lab.pdf)
+
+## 19-01-2023_Getting-Started
+
+#### [1. First Hello World.pdf](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10006.%2019-01-2023_Getting-Started/1.%20First%20Hello%20World.pdf)
+
+#### [2. Hello-World.html](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10006.%2019-01-2023_Getting-Started/2.%20Hello-World.html)
+
+#### [3. Comments, Tags v_s Elements and Attribute.pdf](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10006.%2019-01-2023_Getting-Started/3.%20Comments%2C%20Tags%20v_s%20Elements%20and%20Attribute.pdf)
+
+#### [4. Comments.html](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10006.%2019-01-2023_Getting-Started/4.%20Comments.html)
+
+#### [5. HTML Entities.pdf](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10006.%2019-01-2023_Getting-Started/5.%20HTML%20Entities.pdf)
+
+#### [6. HTML-Entities.html](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10006.%2019-01-2023_Getting-Started/6.%20HTML-Entities.html)

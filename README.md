@@ -65,3 +65,18 @@
 #### [5. HTML Entities.pdf](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10006.%2019-01-2023_Getting-Started/5.%20HTML%20Entities.pdf)
 
 #### [6. HTML-Entities.html](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10006.%2019-01-2023_Getting-Started/6.%20HTML-Entities.html)
+
+## 20-01-2023_Starting-With-Emmet
+
+#### [1. Introduction to Emmet.pdf](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10007.%2020-01-2023_Starting-With-Emmet/1.%20Introduction%20to%20Emmet.pdf)
+
+#### [2. Writing First Code on Emmet.pdf](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10007.%2020-01-2023_Starting-With-Emmet/2.%20Writing%20First%20Code%20on%20Emmet.pdf)
+
+#### [3. Emmet and Speedy Html.pdf](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10007.%2020-01-2023_Starting-With-Emmet/3.%20Emmet%20and%20Speedy%20Html.pdf)
+
+#### [4. Emmet.html](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10007.%2020-01-2023_Starting-With-Emmet/4.%20Emmet.html)
+
+#### [5. Parent-Child and Grouping.pdf](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10007.%2020-01-2023_Starting-With-Emmet/5.%20Parent-Child%20and%20Grouping.pdf)
+
+#### [6. Parent-Child-Grouping-With-Emmet.html](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10007.%2020-01-2023_Starting-With-Emmet/6.%20Parent-Child-Grouping-With-Emmet.html)
+

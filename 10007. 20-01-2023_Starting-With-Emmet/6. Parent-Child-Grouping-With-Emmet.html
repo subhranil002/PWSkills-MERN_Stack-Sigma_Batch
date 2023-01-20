@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Parent-Child-Sibling-Grouping -->
+    
+    <!-- div>p>li -->
+    <div>
+        <p>
+            <li></li>
+        </p>
+    </div>
+
+    <!-- div*5 -->
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+
+    <!-- div>div>p>li*3 -->
+    <div>
+        <div>
+            <p>
+                <li></li>
+                <li></li>
+                <li></li>
+            </p>
+        </div>
+    </div>
+
+    <!-- div.class1>div#id1>div.class2>p#id2*3 -->
+    <div class="class1">
+        <div id="id1">
+            <div class="class2">
+                <p id="id2"></p>
+                <p id="id2"></p>
+                <p id="id2"></p>
+            </div>
+        </div>
+    </div>
+
+    <!-- div.class1>p.class2+p.class3+p.class4 -->
+    <div class="class1">
+        <p class="class2"></p>
+        <p class="class3"></p>
+        <p class="class4"></p>
+    </div>
+
+    <!-- div>(nav>li*3)+footer -->
+    <div>
+        <nav>
+            <li></li>
+            <li></li>
+            <li></li>
+        </nav>
+        <footer></footer>
+    </div>
+    
+</body>
+</html>

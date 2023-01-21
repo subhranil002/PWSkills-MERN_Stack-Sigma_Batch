@@ -88,7 +88,7 @@
 
 #### [3. Block vs Inline Elements.pdf](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10008.%2021-01-2023_HTML/3.%20Block%20vs%20Inline%20Elements.pdf)
 
-#### [4. Block-&-Inline.htmlhttps://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10008.%2021-01-2023_HTML/4.%20Block-%26-Inline.html]()
+#### [4. Block-&-Inline.html](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10008.%2021-01-2023_HTML/4.%20Block-%26-Inline.html)
 
 #### [5. Bring in Images.pdf](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10008.%2021-01-2023_HTML/5.%20Bring%20in%20Images.pdf)
 

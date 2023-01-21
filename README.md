@@ -80,3 +80,21 @@
 
 #### [6. Parent-Child-Grouping-With-Emmet.html](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10007.%2020-01-2023_Starting-With-Emmet/6.%20Parent-Child-Grouping-With-Emmet.html)
 
+## 10008. 21-01-2023_HTML
+
+####[1. An Old Style Blog App (Heading, Paragraph, Formatting etc).pdf](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10008.%2021-01-2023_HTML/1.%20An%20Old%20Style%20Blog%20App%20(Heading%2C%20Paragraph%2C%20Formatting%20etc).pdf)
+
+####[2. Text Formatting.html](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10008.%2021-01-2023_HTML/2.%20Text%20Formatting.html)
+
+####[3. Block vs Inline Elements.pdf](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10008.%2021-01-2023_HTML/3.%20Block%20vs%20Inline%20Elements.pdf)
+
+####[4. Block-&-Inline.htmlhttps://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10008.%2021-01-2023_HTML/4.%20Block-%26-Inline.html]()
+
+####[5. Bring in Images.pdf](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10008.%2021-01-2023_HTML/5.%20Bring%20in%20Images.pdf)
+
+####[6. Images.html](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10008.%2021-01-2023_HTML/6.%20Images.html)
+
+####[7. Lists and Interlinking pages.pdf](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10008.%2021-01-2023_HTML/7.%20Lists%20and%20Interlinking%20pages.pdf)
+
+####[8. Lists & Interlinking.html](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10008.%2021-01-2023_HTML/8.%20Lists%20%26%20Interlinking.html)
+

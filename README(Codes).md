@@ -14,12 +14,12 @@
 
 #### [Parent-Child-Grouping-With-Emmet.html](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10007.%2020-01-2023_Starting-With-Emmet/6.%20Parent-Child-Grouping-With-Emmet.html)
 
-## 21-01-2023_HTML
+## 21-01-2023_HTML_1
 
-#### [Text Formatting.html](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10008.%2021-01-2023_HTML/2.%20Text%20Formatting.html)
+#### [Text Formatting.html](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10008.%2021-01-2023_HTML_1/2.%20Text%20Formatting.html)
 
-#### [Block-&-Inline.html](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10008.%2021-01-2023_HTML/4.%20Block-%26-Inline.html)
+#### [Block-&-Inline.html](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10008.%2021-01-2023_HTML_1/4.%20Block-%26-Inline.html)
 
-#### [Images.html](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10008.%2021-01-2023_HTML/6.%20Images.html)
+#### [Images.html](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10008.%2021-01-2023_HTML_1/6.%20Images.html)
 
-#### [Lists & Interlinking.html](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10008.%2021-01-2023_HTML/8.%20Lists%20%26%20Interlinking.html)
+#### [Lists & Interlinking.html](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10008.%2021-01-2023_HTML_1/8.%20Lists%20%26%20Interlinking.html)

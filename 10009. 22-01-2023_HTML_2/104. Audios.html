@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio</title>
+</head>
+<body>
+    
+    <!-- Getting Audios -->
+    <h1>Loading Audio ...</h1>
+
+    <!-- Technique Number 1 -->
+    <audio src="https://samplelib.com/lib/preview/mp3/sample-12s.mp3" controls autoplay muted loop></audio>
+
+    <!-- Technique Number 2 -->
+    <audio controls>
+        <source src="https://samplelib.com/lib/preview/mp3/sample-12s.mp3">
+        <source src="Alternative-Audio.mp4"><!-- Alternative source file to play same audio if the first source fails ! -->
+    </audio>
+
+</body>
+</html>

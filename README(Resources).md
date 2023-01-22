@@ -70,12 +70,12 @@
 
 #### [Parent-Child and Grouping.pdf](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10007.%2020-01-2023_Starting-With-Emmet/5.%20Parent-Child%20and%20Grouping.pdf)
 
-## 21-01-2023_HTML
+## 21-01-2023_HTML_1
 
-#### [An Old Style Blog App (Heading, Paragraph, Formatting etc).pdf](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10008.%2021-01-2023_HTML/1.%20An%20Old%20Style%20Blog%20App%20(Heading%2C%20Paragraph%2C%20Formatting%20etc).pdf)
+#### [An Old Style Blog App (Heading, Paragraph, Formatting etc).pdf](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10008.%2021-01-2023_HTML_1/1.%20An%20Old%20Style%20Blog%20App%20(Heading%2C%20Paragraph%2C%20Formatting%20etc).pdf)
 
-#### [Block vs Inline Elements.pdf](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10008.%2021-01-2023_HTML/3.%20Block%20vs%20Inline%20Elements.pdf)
+#### [Block vs Inline Elements.pdf](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10008.%2021-01-2023_HTML_1/3.%20Block%20vs%20Inline%20Elements.pdf)
 
-#### [Bring in Images.pdf](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10008.%2021-01-2023_HTML/5.%20Bring%20in%20Images.pdf)
+#### [Bring in Images.pdf](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10008.%2021-01-2023_HTML_1/5.%20Bring%20in%20Images.pdf)
 
-#### [Lists and Interlinking pages.pdf](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10008.%2021-01-2023_HTML/7.%20Lists%20and%20Interlinking%20pages.pdf)
+#### [Lists and Interlinking pages.pdf](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10008.%2021-01-2023_HTML_1/7.%20Lists%20and%20Interlinking%20pages.pdf)

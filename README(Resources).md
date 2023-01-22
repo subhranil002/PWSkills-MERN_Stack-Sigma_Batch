@@ -79,3 +79,18 @@
 #### [Bring in Images.pdf](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10008.%2021-01-2023_HTML_1/5.%20Bring%20in%20Images.pdf)
 
 #### [Lists and Interlinking pages.pdf](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10008.%2021-01-2023_HTML_1/7.%20Lists%20and%20Interlinking%20pages.pdf)
+
+## 22-01-2023_HTML_2
+
+#### [Getting a video on the page.pdf](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10009.%2022-01-2023_HTML_2/101.%20Getting%20a%20video%20on%20the%20page.pdf)
+
+#### [Getting an Audio on page.pdf](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10009.%2022-01-2023_HTML_2/103.%20Getting%20an%20Audio%20on%20page.pdf)
+
+#### [Table and its Properties.pdf](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10009.%2022-01-2023_HTML_2/105.%20Table%20and%20its%20Properties.pdf)
+
+#### [Walkthrough of Forms.pdf](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10009.%2022-01-2023_HTML_2/107.%20Walkthrough%20of%20Forms.pdf)
+
+#### [Get and Post Forms.pdf](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10009.%2022-01-2023_HTML_2/108.%20Get%20and%20Post%20Forms.pdf)
+
+#### [Types of input forms.pdf](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10009.%2022-01-2023_HTML_2/109.%20Types%20of%20input%20forms.pdf)
+

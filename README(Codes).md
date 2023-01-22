@@ -23,3 +23,14 @@
 #### [Images.html](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10008.%2021-01-2023_HTML_1/6.%20Images.html)
 
 #### [Lists & Interlinking.html](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10008.%2021-01-2023_HTML_1/8.%20Lists%20%26%20Interlinking.html)
+
+## 22-01-2023_HTML_2
+
+#### [Videos.html](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10009.%2022-01-2023_HTML_2/102.%20Videos.html)
+
+#### [Audios.html](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10009.%2022-01-2023_HTML_2/104.%20Audios.html)
+
+#### [Table.html](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10009.%2022-01-2023_HTML_2/106.%20Table.html)
+
+#### [Forms.html](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10009.%2022-01-2023_HTML_2/110.%20Forms.html)
+

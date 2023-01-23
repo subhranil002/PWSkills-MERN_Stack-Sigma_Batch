@@ -34,3 +34,7 @@
 
 #### [Forms.html](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10009.%2022-01-2023_HTML_2/110.%20Forms.html)
 
+## 23-01-2023_Semantics
+
+#### [Semantic-Tags.html](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10010.%2023-01-2023_Semantics/4.%20Semantic-Tags.html)
+

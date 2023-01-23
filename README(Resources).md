@@ -94,3 +94,13 @@
 
 #### [Types of input forms.pdf](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10009.%2022-01-2023_HTML_2/109.%20Types%20of%20input%20forms.pdf)
 
+## 23-01-2023_Semantics
+
+#### [A Complete walkthrough with HTML and HTML5.pdf](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10010.%2023-01-2023_Semantics/1.%20A%20Complete%20walkthrough%20with%20HTML%20and%20HTML5.pdf)
+
+#### [What are Semantics tag.pdf](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10010.%2023-01-2023_Semantics/2.%20What%20are%20Semantics%20tag.pdf)
+
+#### [Writing different Semantics tags that we have.pdf](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10010.%2023-01-2023_Semantics/3.%20Writing%20different%20Semantics%20tags%20that%20we%20have.pdf)
+
+#### [Semantic tags in real projects.pdf](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10010.%2023-01-2023_Semantics/5.%20Semantic%20tags%20in%20real%20projects.pdf)
+

@@ -30,3 +30,7 @@
 ## 22-01-2023_HTML_2
 [Resources](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/README(Resources).md#22-01-2023_html_2)
 &nbsp;[Codes](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/README(Codes).md#22-01-2023_html_2)
+
+## 23-01-2023_Semantics
+[Resources](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/README(Resources).md#23-01-2023_semantics)
+&nbsp;[Codes](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/README(Codes).md#23-01-2023_semantics)

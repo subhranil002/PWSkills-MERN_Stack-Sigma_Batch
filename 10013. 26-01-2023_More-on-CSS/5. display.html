@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display Property</title>
+    <style>
+        .inline {
+            border: 1px solid black;
+            display: inline;
+            /* Changes the behaviour from BLOCK to INLINE */
+        }
+
+        .block {
+            border: 1px solid black;
+            display: block;
+            /* Changes the behaviour from INLINE to BLOCK */
+        }
+
+        .inline-block {
+            border: 1px solid black;
+            display: inline-block;
+            /* Now we have the power to give our content height and width */
+            width: 100px;
+        }
+
+        .hidden {
+            display:none;
+        }
+    </style>
+</head>
+<body>
+    
+    <!-- Inline Display Property -->
+    <!-- Display : inline -->
+    <!-- p : Default Behaviour is BLOCK -->
+    <p class="inline">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, in.</p>
+    <p class="inline">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, in.</p>
+    <br><br><hr>
+
+    <!-- Display : block -->
+    <!-- span : Default Behaviour is INLINE -->
+    <br><br>
+    <span class="block">Lorem ipsum dolor sit amet consectetur adipisicing.</span>
+    <span class="block">Lorem ipsum dolor sit amet consectetur adipisicing.</span>
+    <br><br><hr>
+
+    <!-- Display : inline-block -->
+    <br><br>
+    <p class="inline-block">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium, ab.</p>
+    <p class="inline-block">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium, ab.</p>
+    <br><hr>
+
+    <!-- Display : hidden -->
+    <p class="hidden">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt, saepe!</p>
+    <p class="hidden">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt, saepe!</p>
+    <p>I am 3rd Paragraph</p>
+
+</body>
+</html>

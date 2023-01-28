@@ -112,3 +112,17 @@
 
 #### [Inline CSS.pdf](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10011.%2024-01-2023_Starting-With-CSS/3.%20Inline%20CSS.pdf)
 
+## 25-01-2023_Starting-With-CSS-2
+
+#### [Priority of CSS in the file.pdf](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10012.%2025-01-2023_Starting-With-CSS-2/1.%20Priority%20of%20CSS%20in%20the%20file.pdf)
+
+#### [Selectors in CSS - Part 1.pdf](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10012.%2025-01-2023_Starting-With-CSS-2/3.%20Selectors%20in%20CSS%20-%20Part%201.pdf)
+
+#### [Selectors in CSS - Part 2.pdf](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10012.%2025-01-2023_Starting-With-CSS-2/4.%20Selectors%20in%20CSS%20-%20Part%202.pdf)
+
+#### [Explore and bring in fonts.pdf](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10012.%2025-01-2023_Starting-With-CSS-2/6.%20Explore%20and%20bring%20in%20fonts.pdf)
+
+#### [Box model.pdf](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10012.%2025-01-2023_Starting-With-CSS-2/8.%20Box%20model.pdf)
+
+#### [Colors and Background-styles in CSS.pdf](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10012.%2025-01-2023_Starting-With-CSS-2/9.%20Colors%20and%20styles%20in%20CSS.pdf)
+

@@ -50,3 +50,6 @@
 
 #### [Fonts](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/tree/main/10012.%2025-01-2023_Starting-With-CSS-2/7.%20Fonts)
 
+## 26-01-2023_More-on-CSS
+
+#### [Display.html](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10013.%2026-01-2023_More-on-CSS/5.%20display.html)

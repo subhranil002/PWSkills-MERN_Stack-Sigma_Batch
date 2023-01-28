@@ -126,3 +126,15 @@
 
 #### [Colors and Background-styles in CSS.pdf](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10012.%2025-01-2023_Starting-With-CSS-2/9.%20Colors%20and%20styles%20in%20CSS.pdf)
 
+## 26-01-2023_More-on-CSS
+
+#### [Margin and padding.pdf](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10013.%2026-01-2023_More-on-CSS/1.%20Margin%20and%20padding.pdf)
+
+#### [Text.pdf](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10013.%2026-01-2023_More-on-CSS/2.%20Text.pdf)
+
+#### [Font.pdf](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10013.%2026-01-2023_More-on-CSS/3.%20Font.pdf)
+
+#### [Display.pdf](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10013.%2026-01-2023_More-on-CSS/4.%20Display.pdf)
+
+#### [Width and Height.pdf](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10013.%2026-01-2023_More-on-CSS/6.%20Width%20and%20Height.pdf)
+

@@ -42,3 +42,7 @@
 ## 25-01-2023_Starting-With-CSS-2
 [Resources](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/A.%20README(Resources).md#25-01-2023_starting-with-css-2)
 &nbsp;[Codes](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/B.%20README(Codes).md#25-01-2023_starting-with-css-2)
+
+## 26-01-2023_More-on-CSS
+[Resources](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/A.%20README(Resources).md#26-01-2023_more-on-css)
+&nbsp;[Codes](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/B.%20README(Codes).md#26-01-2023_more-on-css)

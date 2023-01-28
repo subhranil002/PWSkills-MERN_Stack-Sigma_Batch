@@ -1,0 +1,30 @@
+/* Descendent Selector */
+
+main p {
+    color: red;
+}
+
+/* Child Selector */
+
+h1 > p {
+    color: blue;
+}
+
+/* Adjacent Sibling Selector */
+
+section + p {
+    color: yellow;
+}
+
+/* General Sibling Selector */
+
+article ~ p {
+    color: blue;
+}
+
+/* Attribute Selector */
+
+[target="_blank"] {
+    color: pink;
+    text-decoration: none;
+}

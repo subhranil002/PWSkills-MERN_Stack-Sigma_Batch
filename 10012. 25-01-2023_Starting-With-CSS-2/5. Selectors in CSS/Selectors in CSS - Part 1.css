@@ -1,0 +1,39 @@
+/* Universal Selector */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Element Selector */
+
+h1 {
+    color: #808081;
+}
+
+p {
+    color: red;
+}
+
+/* Class Selector */
+
+.pra {
+    color: #d0ae26;
+}
+
+.font50 {
+    font-size: 50px;
+}
+
+/* ID Selector */
+
+#id1 {
+    color: whitesmoke;
+    background-color: black;
+}
+
+/* Selector List */
+
+.pra , .font50 {
+    text-decoration: underline;
+}

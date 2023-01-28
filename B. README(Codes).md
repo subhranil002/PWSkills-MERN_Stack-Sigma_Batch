@@ -41,3 +41,12 @@
 ## 24-01-2023_Starting-With-CSS
 
 #### [Inline-CSS.html](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10011.%2024-01-2023_Starting-With-CSS/4.%20Inline-CSS.html)
+
+## 25-01-2023_Starting-With-CSS-2
+
+#### [Priority_of_CSS](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/tree/main/10012.%2025-01-2023_Starting-With-CSS-2/2.%20Priority_of_CSS)
+
+#### [Selectors in CSS](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/tree/main/10012.%2025-01-2023_Starting-With-CSS-2/5.%20Selectors%20in%20CSS)
+
+#### [Fonts](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/tree/main/10012.%2025-01-2023_Starting-With-CSS-2/7.%20Fonts)
+

@@ -53,3 +53,10 @@
 ## 26-01-2023_More-on-CSS
 
 #### [Display.html](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10013.%2026-01-2023_More-on-CSS/5.%20display.html)
+
+## 27-01-2023_More-on-CSS-2
+
+#### [Gradient.html](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10014.%2027-01-2023_More-on-CSS-2/3.%20Gradient.html)
+
+#### [Animation.html](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10014.%2027-01-2023_More-on-CSS-2/6.%20Animation.html)
+

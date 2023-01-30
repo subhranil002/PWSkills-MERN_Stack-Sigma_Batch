@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gradient</title>
+    <style>
+        /* Linear Gradient */
+
+        .grad1 {
+            height: 200px;
+            background-image: linear-gradient(to right, red, yellow);
+        }
+
+        .grad2 {
+            height: 200px;
+            background-image: linear-gradient(to left, red, yellow);
+        }
+
+        .grad3 {
+            height: 200px;
+            background-image: linear-gradient(to top, red, yellow);
+        }
+
+        .grad4 {
+            height: 200px;
+            background-image: linear-gradient(red, yellow); /* to bottom is default */
+        }
+
+        /* Repeating Linear Gradient */
+
+        .grad5 {
+            height: 200px;
+            background-image: repeating-linear-gradient(to left, red 10%, yellow 20%);
+        }
+
+        /* Radial Gradient */   
+
+        .grad6 {
+            height: 200px;
+            background-image: radial-gradient(circle, red, yellow);
+        }
+
+        .grad7 {
+            height: 200px;
+            background-image: radial-gradient(red, yellow); /* eclips shape is default */
+        }
+
+        /* Repeating Radial Gradient */
+
+        .grad8 {
+            height: 200px;
+            background-image: repeating-radial-gradient(red 10%, yellow 20%);
+        }
+
+        /* Conic Gradient */
+
+        .grad9 {
+            height: 200px;
+            background-image: conic-gradient(red 250deg, yellow 50deg, black);
+        }
+    </style>
+</head>
+<body>
+    
+    <!-- Gradient -->
+
+    <h1>Linear Gradient</h1>
+
+    <div class="grad1"></div>
+    <br><br><hr><br><br>
+    <div class="grad2"></div>
+    <br><br><hr><br><br>
+    <div class="grad3"></div>
+    <br><br><hr><br><br>
+    <div class="grad4"></div>
+    <br><br><hr><br><br>
+
+    <h1>Repeating Linear Gradient</h1>
+
+    <div class="grad5"></div>
+    <br><br><hr><br><br>
+
+    <h1>Radial Gradient</h1>
+
+    <div class="grad6"></div>
+    <br><br><hr><br><br>
+    <div class="grad7"></div>
+    <br><br><hr><br><br>
+
+    <h1>Repeating Radial Gradient</h1>
+    
+    <div class="grad8"></div>
+    <br><br><hr><br><br>
+
+    <h1>Conic Gradient</h1>
+
+    <div class="grad9"></div>
+    <br><br><hr><br><br>
+
+</body>
+</html>

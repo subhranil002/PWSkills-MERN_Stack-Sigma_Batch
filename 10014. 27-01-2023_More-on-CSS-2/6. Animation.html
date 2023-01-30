@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+    <style>
+
+        div {
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            position: relative;
+            animation-name: colorchange; /* Connecting With Animation Guide */
+            animation-duration: 4s;
+            animation-delay: 1s;
+            animation-iteration-count: 2;
+            animation-direction: alternate-reverse;
+            animation-fill-mode: both;
+        }
+
+        /* Animation Transition Guide */
+
+        @keyframes colorchange {
+            0% {
+                top: 0px;
+                left: 0px;
+                background-color: blue;
+            }
+            25% {
+                top: 0px;
+                left: 200px;
+                background-color: yellow;
+            }
+            50% {
+                top: 200px;
+                left: 200px;
+                background-color: black;
+            }
+            75% {
+                top: 200px;
+                left: 0px;
+                background-color: aquamarine;
+            }
+            100% {
+                top: 0px;
+                left: 0px;
+                background-color: violet;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    
+    <!-- Animation -->
+    <div></div>
+
+</body>
+</html>

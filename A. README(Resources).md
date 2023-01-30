@@ -138,3 +138,13 @@
 
 #### [Width and Height.pdf](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10013.%2026-01-2023_More-on-CSS/6.%20Width%20and%20Height.pdf)
 
+## 27-01-2023_More-on-CSS-2
+
+#### [Pseudo Classes.pdf](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10014.%2027-01-2023_More-on-CSS-2/1.%20Pseudo%20Classes.pdf)
+
+#### [Gradient.pdf](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10014.%2027-01-2023_More-on-CSS-2/2.%20Gradient.pdf)
+
+#### [Transition and tooltips.pdf](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10014.%2027-01-2023_More-on-CSS-2/4.%20Transition%20and%20tooltips.pdf)
+
+#### [Animation.pdf](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10014.%2027-01-2023_More-on-CSS-2/5.%20Animation.pdf)
+

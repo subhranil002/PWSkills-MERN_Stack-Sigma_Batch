@@ -148,3 +148,31 @@
 
 #### [Animation.pdf](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10014.%2027-01-2023_More-on-CSS-2/5.%20Animation.pdf)
 
+## 28-01-2023_Mobile-Responsive-And-Positions
+
+#### [What are media queries_.pdf](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10015.%2028-01-2023_Mobile-Responsive-And-Positions/1.%20What%20are%20media%20queries_.pdf)
+
+#### [Media query in action.pdf](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10015.%2028-01-2023_Mobile-Responsive-And-Positions/2.%20Media%20query%20in%20action.pdf)
+
+#### [Writing Media Query for Different Screens.pdf](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10015.%2028-01-2023_Mobile-Responsive-And-Positions/3.%20Writing%20Media%20Query%20for%20Different%20Screens.pdf)
+
+#### [Writing Media Query for Different Screens.pdf](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10015.%2028-01-2023_Mobile-Responsive-And-Positions/4.%20Writing%20Media%20Query%20for%20Different%20Screens.pdf)
+
+#### [CSS Layout_.pdf](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10015.%2028-01-2023_Mobile-Responsive-And-Positions/6.%20CSS%20Layout_.pdf)
+
+## 29-01-2023_Mobile-Responsive-And-Positions-2
+
+#### [CSS Position.pdf](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10016.%2029-01-2023_Mobile-Responsive-And-Positions-2/1.%20CSS%20Position.pdf)
+
+#### [Working with Different CSS Position Property.pdf](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10016.%2029-01-2023_Mobile-Responsive-And-Positions-2/2.%20Working%20with%20Different%20CSS%20Position%20Property.pdf)
+
+#### [Overflow and Z-index.pdf](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10016.%2029-01-2023_Mobile-Responsive-And-Positions-2/3.%20overflow%20and%20Z-index.pdf)
+
+## 30-01-2023_Flexbox-In-CSS
+
+#### [What is flexbox and power of flexbox_.pdf](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10017.%2030-01-2023_Flexbox-In-CSS/1.%20What%20is%20flexbox%20and%20power%20of%20flexbox_.pdf)
+
+#### [Different flexbox properties (Part 1).pdf](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10017.%2030-01-2023_Flexbox-In-CSS/2.%20Different%20flexbox%20properties%20(Part%201).pdf)
+
+#### [Different flexbox properties (Part 2).pdf](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10017.%2030-01-2023_Flexbox-In-CSS/3.%20Different%20flexbox%20properties%20(Part%202).pdf)
+

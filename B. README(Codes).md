@@ -60,3 +60,6 @@
 
 #### [Animation.html](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10014.%2027-01-2023_More-on-CSS-2/6.%20Animation.html)
 
+## 28-01-2023_Mobile-Responsive-And-Positions
+
+#### [Media Query Breakpoints](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/tree/main/10015.%2028-01-2023_Mobile-Responsive-And-Positions/5.%20Media%20Query%20Breakpoints)

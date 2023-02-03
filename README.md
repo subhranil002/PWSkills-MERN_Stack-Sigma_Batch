@@ -34,6 +34,7 @@
 ## 23-01-2023_Semantics
 [Resources](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/A.%20README(Resources).md#23-01-2023_semantics)
 &nbsp;[Codes](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/B.%20README(Codes).md#23-01-2023_semantics)
+&nbsp;[Mini-Projects](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/C.%20README(Mini-Projects).md#23-01-2023_semantics---time-table-projecthtml)
 
 ## 24-01-2023_Starting-With-CSS
 [Resources](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/A.%20README(Resources).md#24-01-2023_starting-with-css)
@@ -63,3 +64,4 @@
 
 ## 31-01-2023_Grid
 [Resources](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/A.%20README(Resources).md#31-01-2023_grid)
+&nbsp;[Mini-Projects](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/C.%20README(Mini-Projects).md#31-01-2023_grid---grid-album-projecthtml)

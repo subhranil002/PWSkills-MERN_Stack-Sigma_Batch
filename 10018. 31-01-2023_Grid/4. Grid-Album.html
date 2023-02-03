@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid-Album</title>
+    <style>
+
+        .container {
+            display: grid;
+            grid-template-columns: repeat(2, 600px);
+            grid-template-rows: repeat(5, 600px);
+            justify-content: center;
+        }
+
+        /* .box {
+            height: 100px;
+            width: 100px;
+        } */
+
+        .box1 {
+            background-color: red;
+            grid-row-start: 1;
+            grid-row-end: 3;
+        }
+        
+        .box2 {
+            background-color: green;
+        }
+        .box3 {
+            background-color: yellow;
+        }
+        .box4 {
+            background-color: pink;
+            grid-column-start: 1;
+            grid-column-end: 3;
+        }
+        .box5 {
+            background-color: brown;
+        }
+        .box6 {
+            background-color: purple;
+        }
+        .box7 {
+            background-color: violet;
+        }
+        .box8 {
+            background-color: yellowgreen;
+        }
+        .box9 {
+            background-color: magenta;
+            grid-column-start: 1;
+            grid-column-end: 3;
+        }
+
+        img {
+            width: 100%;
+            height: 100%;
+            border: 2px solid cyan;
+        }
+
+    </style>
+</head>
+<body>
+
+    <!-- Grid-Album -->
+    <div class="container">
+        <div class="box box1">
+            <img src="https://images.pexels.com/photos/12587265/pexels-photo-12587265.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" alt="box1-image" title="box1-image">
+        </div>
+        <div class="box box2">
+            <img src="https://images.pexels.com/photos/15279711/pexels-photo-15279711.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" alt="box2-image" title="box2-image">
+        </div>
+        <div class="box box3">
+            <img src="https://images.pexels.com/photos/48828/pexels-photo-48828.jpeg?auto=compress&cs=tinysrgb&w=600" alt="box3-image" title="box3-image">
+        </div>
+        <div class="box box4">
+            <img src="https://images.pexels.com/photos/7222212/pexels-photo-7222212.jpeg?auto=compress&cs=tinysrgb&w=600" alt="box4-image" title="box4-image">
+        </div>
+        <div class="box box5">
+            <img src="https://images.pexels.com/photos/707581/pexels-photo-707581.jpeg?auto=compress&cs=tinysrgb&w=600" alt="box5-image" title="box5-image">
+        </div>
+        <div class="box box6">
+            <img src="https://images.pexels.com/photos/447592/pexels-photo-447592.jpeg?auto=compress&cs=tinysrgb&w=600" alt="box6-image" title="box6-image">
+        </div>
+        <div class="box box7">
+            <img src="https://images.pexels.com/photos/1125136/pexels-photo-1125136.jpeg?auto=compress&cs=tinysrgb&w=600" alt="box7-image" title="box7-image">
+        </div>
+        <div class="box box8">
+            <img src="https://images.pexels.com/photos/3636962/pexels-photo-3636962.jpeg?auto=compress&cs=tinysrgb&w=600" alt="box8-image" title="box8-image">
+        </div>
+        <div class="box box9">
+            <img src="https://images.pexels.com/photos/667838/pexels-photo-667838.jpeg?auto=compress&cs=tinysrgb&w=600" alt="box9-image" title="box9-image">
+        </div>
+    </div>
+    
+</body>
+</html>

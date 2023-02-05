@@ -68,3 +68,6 @@
 
 ## 01-02-2023_Project-1(Simplest Portfolio Page)
 [Projects](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/D.%20README(Projects).md#01-02-2023_project-1--simplest-portfolio-page)
+
+## 02-02-2023_Project-2(Basic Product Landing Page)
+[Projects](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/D.%20README(Projects).md#02-02-2023_project-2--basic-product-landing-page)

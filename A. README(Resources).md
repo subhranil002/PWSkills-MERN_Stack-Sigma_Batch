@@ -184,3 +184,8 @@
 
 #### [Creating Album with Grid.pdf](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10018.%2031-01-2023_Grid/3.%20Creating%20Album%20with%20Grid.pdf)
 
+## 06-02-2023_Let's-Understand-The-Importance-Of-META
+
+#### [Importance of meta tag 1](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10024.%2006-02-2023_Let's-Understand-The-Importance-Of-META/1.%20Importance%20of%20meta%20tag%201.pdf)
+
+#### [Importance of Meta tag 2](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10024.%2006-02-2023_Let's-Understand-The-Importance-Of-META/2.%20Importance%20of%20Meta%20tag%202.pdf)

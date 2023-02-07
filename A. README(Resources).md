@@ -186,6 +186,10 @@
 
 ## 06-02-2023_Let's-Understand-The-Importance-Of-META
 
-#### [Importance of meta tag 1](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10024.%2006-02-2023_Let's-Understand-The-Importance-Of-META/1.%20Importance%20of%20meta%20tag%201.pdf)
+#### [Importance of meta tag 1.pdf](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10024.%2006-02-2023_Let's-Understand-The-Importance-Of-META/1.%20Importance%20of%20meta%20tag%201.pdf)
 
-#### [Importance of Meta tag 2](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10024.%2006-02-2023_Let's-Understand-The-Importance-Of-META/2.%20Importance%20of%20Meta%20tag%202.pdf)
+#### [Importance of Meta tag 2.pdf](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10024.%2006-02-2023_Let's-Understand-The-Importance-Of-META/2.%20Importance%20of%20Meta%20tag%202.pdf)
+
+## 07-02-2023_Let's-Understand-All-The-CSS-Units
+
+#### [Units in CSS.pdf](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10025.%2007-02-2023_Let's-Understand-All-The-CSS-Units/Units%20in%20CSS.pdf)

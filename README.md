@@ -71,3 +71,15 @@
 
 ## 02-02-2023_Project-2(Basic Product Landing Page)
 [Projects](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/D.%20README(Projects).md#02-02-2023_project-2--basic-product-landing-page)
+
+## 03-02-2023_Project-3()
+
+## 04-02-2023_Project-4()
+
+## 05-02-2023_Project-5()
+
+## 06-02-2023_Let's-Understand-The-Importance-Of-META
+[Resources](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/A.%20README(Resources).md#06-02-2023_lets-understand-the-importance-of-meta)
+
+## 07-02-2023_Let's-Understand-All-The-CSS-Units
+[Resources](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/A.%20README(Resources).md#07-02-2023_lets-understand-all-the-css-units)

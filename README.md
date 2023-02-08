@@ -83,3 +83,6 @@
 
 ## 07-02-2023_Let's-Understand-All-The-CSS-Units
 [Resources](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/A.%20README(Resources).md#07-02-2023_lets-understand-all-the-css-units)
+
+## 08-02-2023_Let's-Make-It-Responsive(Revision Class)
+[Resources](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/tree/main/10026.%2008-02-2023_Let's-Make-It-Responsive(Revision%20Class))

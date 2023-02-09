@@ -66,4 +66,4 @@
 
 ## 09-02-2023_Media-Query-Assignment
 
-#### [Media-Query-Assignment](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/B.%20README(Codes).md#28-01-2023_mobile-responsive-and-positions)
+#### [Media-Query-Assignment](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10027.%2009-02-2023_Media-Query-Assignment/index.html)

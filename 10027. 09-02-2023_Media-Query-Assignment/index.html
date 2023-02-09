@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query Assignment</title>
+    <style>
+
+        body {
+            background-color: #7fffd5;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        p{
+            text-align: center;
+            display: none;
+        }
+
+        @media (1440px > width > 1024px) 
+        {
+            body {
+                background-color: #208b21;
+            }
+
+            .p1 {
+                display: block;
+            }
+
+        }
+        
+        @media (1024px > width > 768px) 
+        {
+            body {
+                background-color: #b1882f;
+            }
+
+            .p2 {
+                display: block;
+            }
+
+        }
+        
+        @media (768px > width > 425px) 
+        {
+            body {
+                background-color: #75fbfd;
+            }
+            
+            .p3 {
+                display: block;
+            }
+
+        }
+        
+        @media (max-width: 425px) 
+        {
+            body {
+                background-color: #ca3142;
+            }
+            
+            .p4 {
+                display: block;
+            }
+
+        }
+
+    </style>
+</head>
+<body>
+    <h1>This is a Media Query demo page.</h1>
+    <p class="p1">Screen size: 1440px</p>
+    <p class="p2">Screen size: 1024px</p>
+    <p class="p3">Screen size: 768px</p>
+    <p class="p4">Screen size: 425px</p>
+</body>
+</html>

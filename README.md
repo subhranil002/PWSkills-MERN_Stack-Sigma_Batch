@@ -86,3 +86,6 @@
 
 ## 08-02-2023_Let's-Make-It-Responsive(Revision Class)
 [Resources](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/tree/main/10026.%2008-02-2023_Let's-Make-It-Responsive(Revision%20Class))
+
+## 09-02-2023_Media-Query-Assignment
+[Codes](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/B.%20README(Codes).md#09-02-2023_media-query-assignment)

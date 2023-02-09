@@ -64,3 +64,6 @@
 
 #### [Media Query Breakpoints](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/tree/main/10015.%2028-01-2023_Mobile-Responsive-And-Positions/5.%20Media%20Query%20Breakpoints)
 
+## 09-02-2023_Media-Query-Assignment
+
+#### [Media-Query-Assignment](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/B.%20README(Codes).md#28-01-2023_mobile-responsive-and-positions)

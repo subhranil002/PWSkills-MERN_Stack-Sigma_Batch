@@ -72,7 +72,8 @@
 ## 02-02-2023_Project-2(Basic Product Landing Page)
 [Projects](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/D.%20README(Projects).md#02-02-2023_project-2--basic-product-landing-page)
 
-## 03-02-2023_Project-3()
+## 03-02-2023_Project-3(Basic Restaurant Landing Page)
+[Projects](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/D.%20README(Projects).md#03-02-2023--basic-restaurant-landing-page)
 
 ## 04-02-2023_Project-4()
 

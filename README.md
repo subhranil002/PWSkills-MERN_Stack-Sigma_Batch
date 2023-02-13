@@ -75,7 +75,7 @@
 ## 03-02-2023_Project-3(Basic Restaurant Landing Page)
 [Projects](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/D.%20README(Projects).md#03-02-2023--basic-restaurant-landing-page)
 
-## 04-02-2023_Project-4(Education Landing Page)
+## 04-02-2023_Project-4(Basic Education Landing Page)
 [Projects](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/D.%20README(Projects).md#04-02-2023--basic-education-landing-page)
 
 ## 05-02-2023_Project-5()
@@ -91,3 +91,9 @@
 
 ## 09-02-2023_Media-Query-Assignment
 [Codes](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/B.%20README(Codes).md#09-02-2023_media-query-assignment)
+
+## 10-02-2023_Media-Query-Assignment-2
+
+## 11-02-2023_Multipage-Assignment
+
+## 12-02-2023_Holiday 🙂

@@ -94,6 +94,6 @@
 
 ## 10-02-2023_Media-Query-Assignment-2
 
-## 11-02-2023_Multipage-Assignment
+## 11-02-2023_Long-Webpage-Assignment
 
-## 12-02-2023_Holiday 🙂
+## 12-02-2023_Multipage-Assignment

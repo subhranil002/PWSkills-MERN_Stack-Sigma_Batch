@@ -6,4 +6,4 @@
 
 ### [03-02-2023 :: Basic Restaurant Landing Page](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/tree/main/10021.%2003-02-2023_Project-3(Restaurant%20Landing%20Page))
 
-### [04-02-2023 :: Education Landing Page](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/tree/main/10022.%2004-02-2023_Project-4(Education%20Landing%20Page))
+### [04-02-2023 :: Basic Education Landing Page](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/tree/main/10022.%2004-02-2023_Project-4(Education%20Landing%20Page))

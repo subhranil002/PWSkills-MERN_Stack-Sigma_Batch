@@ -97,3 +97,7 @@
 ## 11-02-2023_Long-Webpage-Assignment
 
 ## 12-02-2023_Multipage-Assignment
+
+## 13-02-2023_JavaScript-Fundamentals-1
+
+## 14-02-2023_JavaScript-Fundamentals-2

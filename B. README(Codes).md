@@ -67,3 +67,7 @@
 ## 09-02-2023_Media-Query-Assignment
 
 #### [Media-Query-Assignment](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10027.%2009-02-2023_Media-Query-Assignment/index.html)
+
+## 14-02-2023_JavaScript-Fundamentals-2
+
+#### [script.js](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10032.%2014-02-2023_JavaScript-Fundamentals-2/script.js)

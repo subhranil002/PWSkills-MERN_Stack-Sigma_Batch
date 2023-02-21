@@ -98,8 +98,3 @@
 ## 11-02-2023_Long-Webpage-Assignment
 
 ## 12-02-2023_Multipage-Assignment
-
-## 13-02-2023_JavaScript-Fundamentals-1
-
-## 14-02-2023_JavaScript-Fundamentals-2
-[Codes](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/B.%20README(Codes).md#14-02-2023_javascript-fundamentals-2)

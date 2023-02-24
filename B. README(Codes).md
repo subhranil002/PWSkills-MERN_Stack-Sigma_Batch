@@ -67,3 +67,31 @@
 ## 09-02-2023_Media-Query-Assignment
 
 #### [Media-Query-Assignment](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10027.%2009-02-2023_Media-Query-Assignment/index.html)
+
+## 14-02-2023_JavaScript(Variables & Datatypes)
+
+#### [Values and Datatypes.js](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10032.%2014-02-2023_JavaScript(Variables%20%26%20Datatypes)/2.%20Values%20and%20Datatypes.js)
+
+#### [Variables and typeof.js](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10032.%2014-02-2023_JavaScript(Variables%20%26%20Datatypes)/4.%20Variables%20and%20typeof.js)
+
+## 15-02-2023_JavaScript(Operators)
+
+#### [Operators.js](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10033.%2015-02-2023_JavaScript(Operators)/2.%20Operators.js)
+
+## 16-02-2023_JavaScript(Conditions & Use In HTML)
+
+#### [Conditions.js](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10034.%2016-02-2023_JavaScript(Conditions%20%26%20Use%20In%20HTML)/3.%20Conditions.js)
+
+## 17-02-2023_JavaScript(Switch Case & Ternary Conditions)
+
+#### [Switch Case.js](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10035.%2017-02-2023_JavaScript(Switch%20Case%20%26%20Ternary%20Conditions)/2.%20Switch%20Case.js)
+
+#### [Ternary Conditions.js](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10035.%2017-02-2023_JavaScript(Switch%20Case%20%26%20Ternary%20Conditions)/4.%20Ternary%20Conditions.js)
+
+## 18-02-2023_JavaScript(Introduction To Loop - While & Do While)
+
+#### [While and Do-while loop.js](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10036.%2018-02-2023_JavaScript(Introduction%20To%20Loop%20-%20While%20%26%20Do%20While)/3.%20While%20and%20Do-while%20loop.js)
+
+## 19-02-2023_JavaScript(For Loop, Break & Continue)
+
+#### [For loop, Break and Continue.js](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10037.%2019-02-2023_JavaScript(For%20Loop%2C%20Break%20%26%20Continue)/2.%20For%20loop%2C%20Break%20and%20Continue.js)

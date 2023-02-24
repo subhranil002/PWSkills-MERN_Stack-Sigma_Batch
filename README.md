@@ -98,3 +98,30 @@
 ## 11-02-2023_Long-Webpage-Assignment
 
 ## 12-02-2023_Multipage-Assignment
+
+## 13-02-2023_Introduction-To-JavaScript
+[Resources](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/A.%20README(Resources).md#13-02-2023_introduction-to-javascript)
+
+## 14-02-2023_JavaScript(Variables & Datatypes)
+[Resources](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/A.%20README(Resources).md#14-02-2023_javascriptvariables--datatypes)
+&nbsp;[Codes](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/B.%20README(Codes).md#14-02-2023_javascriptvariables--datatypes)
+
+## 15-02-2023_JavaScript(Operators)
+[Resources](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/A.%20README(Resources).md#15-02-2023_javascriptoperators)
+&nbsp;[Codes](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/B.%20README(Codes).md#15-02-2023_javascriptoperators)
+
+## 16-02-2023_JavaScript(Conditions & Use In HTML)
+[Resources](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/A.%20README(Resources).md#16-02-2023_javascriptconditions--use-in-html)
+&nbsp;[Codes](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/B.%20README(Codes).md#16-02-2023_javascriptconditions--use-in-html)
+
+## 17-02-2023_JavaScript(Switch Case & Ternary Conditions)
+[Resources](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/A.%20README(Resources).md#17-02-2023_javascriptswitch-case--ternary-conditions)
+&nbsp;[Codes](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/B.%20README(Codes).md#17-02-2023_javascriptswitch-case--ternary-conditions)
+
+## 18-02-2023_JavaScript(Introduction To Loop - While & Do While)
+[Resources](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/A.%20README(Resources).md#18-02-2023_javascriptintroduction-to-loop---while--do-while)
+&nbsp;[Codes](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/B.%20README(Codes).md#18-02-2023_javascriptintroduction-to-loop---while--do-while)
+
+## 19-02-2023_JavaScript(For Loop, Break & Continue)
+[Resources](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/A.%20README(Resources).md#19-02-2023_javascriptfor-loop-break--continue)
+&nbsp;[Codes](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/B.%20README(Codes).md#19-02-2023_javascriptfor-loop-break--continue)

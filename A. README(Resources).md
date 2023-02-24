@@ -193,3 +193,41 @@
 ## 07-02-2023_Let's-Understand-All-The-CSS-Units
 
 #### [Units in CSS.pdf](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10025.%2007-02-2023_Let's-Understand-All-The-CSS-Units/Units%20in%20CSS.pdf)
+
+## 13-02-2023_Introduction-To-JavaScript
+
+#### [Why and What is JavaScript.pdf](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10031.%2013-02-2023_Introduction-To-JavaScript/1.%20Why%20and%20What%20is%20JavaScript.pdf)
+
+#### [Intro to Node JS (Runtime, V8, Libuv).pdf](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10031.%2013-02-2023_Introduction-To-JavaScript/2.%20Intro%20to%20Node%20JS%20(Runtime%2C%20V8%2C%20Libuv).pdf)
+
+## 14-02-2023_JavaScript(Variables & Datatypes)
+
+#### [Values and Datatypes.pdf](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10032.%2014-02-2023_JavaScript(Variables%20%26%20Datatypes)/1.%20Values%20and%20Datatypes.pdf)
+
+#### [Variables and typeof.pdf](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10032.%2014-02-2023_JavaScript(Variables%20%26%20Datatypes)/3.%20Variables%20and%20typeof.pdf)
+
+## 15-02-2023_JavaScript(Operators)
+
+#### [Operators.pdf](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10033.%2015-02-2023_JavaScript(Operators)/1.%20Operators.pdf)
+
+## 16-02-2023_JavaScript(Conditions & Use In HTML)
+
+#### [How to use JS in HTML File.pdf](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10034.%2016-02-2023_JavaScript(Conditions%20%26%20Use%20In%20HTML)/1.%20How%20to%20use%20JS%20in%20HTML%20File.pdf)
+
+#### [What are Conditions, If, If-else, if-else-if.pdf](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10034.%2016-02-2023_JavaScript(Conditions%20%26%20Use%20In%20HTML)/2.%20What%20are%20Conditions%2C%20If%2C%20If-else%2C%20if-else-if.pdf)
+
+## 17-02-2023_JavaScript(Switch Case & Ternary Conditions)
+
+#### [Switch Case.pdf](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10035.%2017-02-2023_JavaScript(Switch%20Case%20%26%20Ternary%20Conditions)/1.%20Switch%20Case.pdf)
+
+#### [Ternary Conditions.pdf](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10035.%2017-02-2023_JavaScript(Switch%20Case%20%26%20Ternary%20Conditions)/3.%20Ternary%20Conditions.pdf)
+
+## 18-02-2023_JavaScript(Introduction To Loop - While & Do While)
+
+#### [Introduction to loops.pdf](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10036.%2018-02-2023_JavaScript(Introduction%20To%20Loop%20-%20While%20%26%20Do%20While)/1.%20Introduction%20to%20loops.pdf)
+
+#### [While and Do-while loop.pdf](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10036.%2018-02-2023_JavaScript(Introduction%20To%20Loop%20-%20While%20%26%20Do%20While)/2.%20While%20and%20Do-while%20loop.pdf)
+
+## 19-02-2023_JavaScript(For Loop, Break & Continue)
+
+#### [For loop, Break and Continue.pdf](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10037.%2019-02-2023_JavaScript(For%20Loop%2C%20Break%20%26%20Continue)/1.%20For%20loop%2C%20Break%20and%20Continue.pdf)

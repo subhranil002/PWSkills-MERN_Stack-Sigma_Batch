@@ -10,4 +10,4 @@
 
 ## [05-02-2023 :: Basic Ecommerce Landing Page](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/tree/main/10023.%2005-02-2023_Project-5(Ecommerce%20Landing%20Page))
 
-## [10-02-2023 :: Media-Query-Assignment-2](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/tree/main/10028.%2010-02-2023_Media-Query-Assignment-2)
+## [10-02-2023 :: Media Query Assignment 2](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/tree/main/10028.%2010-02-2023_Media-Query-Assignment-2)

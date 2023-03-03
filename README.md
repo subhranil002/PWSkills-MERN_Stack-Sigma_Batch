@@ -94,6 +94,7 @@
 [Codes](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/B.%20README(Codes).md#09-02-2023_media-query-assignment)
 
 ## 10-02-2023_Media-Query-Assignment-2
+[Projects](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/D.%20README(Projects).md#10-02-2023--media-query-assignment-2)
 
 ## 11-02-2023_Long-Webpage-Assignment
 

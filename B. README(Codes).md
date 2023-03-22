@@ -101,3 +101,7 @@
 #### [Arrays.js](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10038.%2020-02-2023_JavaScript(Array%20%26%20Array%20Methods)/2.%20Arrays.js)
 
 #### [Array Methods.js](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10038.%2020-02-2023_JavaScript(Array%20%26%20Array%20Methods)/4.%20Array%20Methods%20-%20Part%201.js)
+
+## 21-02-2023_JavaScript(Introduction to Functions)
+
+#### [Introduction to Functions.js](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10039.%2021-02-2023_JavaScript(Introduction%20to%20Functions)/2.%20Introduction%20to%20Functions.js)

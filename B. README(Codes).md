@@ -95,3 +95,9 @@
 ## 19-02-2023_JavaScript(For Loop, Break & Continue)
 
 #### [For loop, Break and Continue.js](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10037.%2019-02-2023_JavaScript(For%20Loop%2C%20Break%20%26%20Continue)/2.%20For%20loop%2C%20Break%20and%20Continue.js)
+
+## 20-02-2023_JavaScript(Array & Array Methods)
+
+#### [Arrays.js](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10038.%2020-02-2023_JavaScript(Array%20%26%20Array%20Methods)/2.%20Arrays.js)
+
+#### [Array Methods.js](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10038.%2020-02-2023_JavaScript(Array%20%26%20Array%20Methods)/4.%20Array%20Methods%20-%20Part%201.js)

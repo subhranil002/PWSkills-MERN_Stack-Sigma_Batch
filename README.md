@@ -134,3 +134,7 @@
 ## 21-02-2023_JavaScript(Introduction to Functions)
 [Resources](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/A.%20README(Resources).md#21-02-2023_javascriptintroduction-to-functions)
 &nbsp;[Codes](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/B.%20README(Codes).md#21-02-2023_javascriptintroduction-to-functions)
+
+## 22-02-2023_JavaScript(Function Parameters)
+[Resources](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/A.%20README(Resources).md#22-02-2023_javascriptfunction-parameters)
+&nbsp;[Codes](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/B.%20README(Codes).md#22-02-2023_javascriptfunction-parameters)

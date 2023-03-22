@@ -126,3 +126,7 @@
 ## 19-02-2023_JavaScript(For Loop, Break & Continue)
 [Resources](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/A.%20README(Resources).md#19-02-2023_javascriptfor-loop-break--continue)
 &nbsp;[Codes](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/B.%20README(Codes).md#19-02-2023_javascriptfor-loop-break--continue)
+
+## 20-02-2023_JavaScript(Array & Array Methods)
+[Resources](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/A.%20README(Resources).md#20-02-2023_javascriptarray--array-methods)
+&nbsp;[Codes](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/B.%20README(Codes).md#20-02-2023_javascriptarray--array-methods)

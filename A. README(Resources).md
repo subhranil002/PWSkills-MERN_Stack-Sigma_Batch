@@ -243,3 +243,9 @@
 #### [Why and What of Functions and Function Declaration.pdf](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10039.%2021-02-2023_JavaScript(Introduction%20to%20Functions)/1.%20Why%20and%20What%20of%20Functions%20and%20Function%20Declaration.pdf)
 
 #### [Function without a parameter and return.pdf](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10039.%2021-02-2023_JavaScript(Introduction%20to%20Functions)/3.%20Function%20without%20a%20parameter%20and%20return.pdf)
+
+## 22-02-2023_JavaScript(Function Parameters)
+
+#### [Function with a parameter (Single, and Multiple).pdf](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10040.%2022-02-2023_JavaScript(Function%20Parameters)/1.%20Function%20with%20a%20parameter%20(Single%2C%20and%20Multiple).pdf)
+
+#### [Function with an unlimited number of parameters.pdf](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10040.%2022-02-2023_JavaScript(Function%20Parameters)/3.%20Function%20with%20an%20unlimited%20number%20of%20parameters.pdf)

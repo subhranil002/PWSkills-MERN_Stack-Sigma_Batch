@@ -105,3 +105,9 @@
 ## 21-02-2023_JavaScript(Introduction to Functions)
 
 #### [Introduction to Functions.js](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10039.%2021-02-2023_JavaScript(Introduction%20to%20Functions)/2.%20Introduction%20to%20Functions.js)
+
+## 22-02-2023_JavaScript(Function Parameters)
+
+#### [Function with 2 Parameters.js](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10040.%2022-02-2023_JavaScript(Function%20Parameters)/2.%20Function%20with%202%20Parameters.js)
+
+#### [Function with Unlimited Parameters.js](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10040.%2022-02-2023_JavaScript(Function%20Parameters)/4.%20Function%20with%20Unlimited%20Parameters.js)

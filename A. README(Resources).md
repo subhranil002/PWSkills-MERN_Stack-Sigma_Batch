@@ -231,3 +231,9 @@
 ## 19-02-2023_JavaScript(For Loop, Break & Continue)
 
 #### [For loop, Break and Continue.pdf](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10037.%2019-02-2023_JavaScript(For%20Loop%2C%20Break%20%26%20Continue)/1.%20For%20loop%2C%20Break%20and%20Continue.pdf)
+
+## 20-02-2023_JavaScript(Array & Array Methods)
+
+#### [Arrays in JavaScript.pdf](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10038.%2020-02-2023_JavaScript(Array%20%26%20Array%20Methods)/1.%20Arrays%20in%20JavaScript.pdf)
+
+#### [Array Methods.pdf](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10038.%2020-02-2023_JavaScript(Array%20%26%20Array%20Methods)/3.%20Array%20Methods%20-%20Part%201.pdf)

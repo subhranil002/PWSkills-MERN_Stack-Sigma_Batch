@@ -130,3 +130,7 @@
 ## 20-02-2023_JavaScript(Array & Array Methods)
 [Resources](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/A.%20README(Resources).md#20-02-2023_javascriptarray--array-methods)
 &nbsp;[Codes](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/B.%20README(Codes).md#20-02-2023_javascriptarray--array-methods)
+
+## 21-02-2023_JavaScript(Introduction to Functions)
+[Resources](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/A.%20README(Resources).md#21-02-2023_javascriptintroduction-to-functions)
+&nbsp;[Codes](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/B.%20README(Codes).md#21-02-2023_javascriptintroduction-to-functions)

@@ -237,3 +237,9 @@
 #### [Arrays in JavaScript.pdf](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10038.%2020-02-2023_JavaScript(Array%20%26%20Array%20Methods)/1.%20Arrays%20in%20JavaScript.pdf)
 
 #### [Array Methods.pdf](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10038.%2020-02-2023_JavaScript(Array%20%26%20Array%20Methods)/3.%20Array%20Methods%20-%20Part%201.pdf)
+
+## 21-02-2023_JavaScript(Introduction to Functions)
+
+#### [Why and What of Functions and Function Declaration.pdf](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10039.%2021-02-2023_JavaScript(Introduction%20to%20Functions)/1.%20Why%20and%20What%20of%20Functions%20and%20Function%20Declaration.pdf)
+
+#### [Function without a parameter and return.pdf](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10039.%2021-02-2023_JavaScript(Introduction%20to%20Functions)/3.%20Function%20without%20a%20parameter%20and%20return.pdf)

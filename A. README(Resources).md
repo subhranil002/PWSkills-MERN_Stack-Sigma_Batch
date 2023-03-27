@@ -249,3 +249,25 @@
 #### [Function with a parameter (Single, and Multiple).pdf](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10040.%2022-02-2023_JavaScript(Function%20Parameters)/1.%20Function%20with%20a%20parameter%20(Single%2C%20and%20Multiple).pdf)
 
 #### [Function with an unlimited number of parameters.pdf](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10040.%2022-02-2023_JavaScript(Function%20Parameters)/3.%20Function%20with%20an%20unlimited%20number%20of%20parameters.pdf)
+
+## 23-02-2023_JavaScript(Arrow Function & Anonymous Functions)
+
+#### [Arrow Function.pdf](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10041.%2023-02-2023_JavaScript(Arrow%20Function%20%26%20Anonymous%20Functions)/1.%20Arrow%20Function.pdf)
+
+#### [Anonymous Function.pdf](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10041.%2023-02-2023_JavaScript(Arrow%20Function%20%26%20Anonymous%20Functions)/3.%20Anonymous%20Function.pdf)
+
+## 24-02-2023_JavaScript(Expression Functions & Self Invoking Functions)
+
+#### [Function Expression.pdf](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10042.%2024-02-2023_JavaScript(Expression%20Functions%20%26%20Self%20Invoking%20Functions)/1.%20Function%20Expression.pdf)
+ 
+#### [Self invoking functions.pdf](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10042.%2024-02-2023_JavaScript(Expression%20Functions%20%26%20Self%20Invoking%20Functions)/2.%20Self%20invoking%20functions.pdf)
+
+## 25-02-2023_JavaScript(Introduction to Objects)
+
+#### [What was the need of objects.pdf](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10043.%2025-02-2023_JavaScript(Introduction%20to%20Objects)/1.%20What%20was%20the%20need%20of%20objects.pdf)
+
+#### [Creating object and manipulating values in object.pdf](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10043.%2025-02-2023_JavaScript(Introduction%20to%20Objects)/2.%20Creating%20object%20and%20manipulating%20values%20in%20object.pdf)
+
+## 26-02-2023_JavaScript(Object Methods)
+
+#### [Object methods.pdf](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10044.%2026-02-2023_JavaScript(Object%20Methods)/1.%20Object%20methods.pdf)

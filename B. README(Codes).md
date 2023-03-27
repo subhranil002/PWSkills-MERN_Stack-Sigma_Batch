@@ -111,3 +111,21 @@
 #### [Function with 2 Parameters.js](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10040.%2022-02-2023_JavaScript(Function%20Parameters)/2.%20Function%20with%202%20Parameters.js)
 
 #### [Function with Unlimited Parameters.js](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10040.%2022-02-2023_JavaScript(Function%20Parameters)/4.%20Function%20with%20Unlimited%20Parameters.js)
+
+## 23-02-2023_JavaScript(Arrow Function & Anonymous Functions)
+
+#### [Arrow Functions.js](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10041.%2023-02-2023_JavaScript(Arrow%20Function%20%26%20Anonymous%20Functions)/2.%20Arrow%20Functions.js)
+
+#### [Anonymous Functions.js](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10041.%2023-02-2023_JavaScript(Arrow%20Function%20%26%20Anonymous%20Functions)/4.%20Anonymous%20Functions.js)
+
+## 24-02-2023_JavaScript(Expression Functions & Self Invoking Functions)
+
+#### [Self invoking functions.js](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10042.%2024-02-2023_JavaScript(Expression%20Functions%20%26%20Self%20Invoking%20Functions)/3.%20Self%20invoking%20functions.js)
+
+## 25-02-2023_JavaScript(Introduction to Objects)
+
+#### [Objects.js](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10043.%2025-02-2023_JavaScript(Introduction%20to%20Objects)/3.%20Objects.js)
+
+## 26-02-2023_JavaScript(Object Methods)
+
+#### [Object methods.js](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10044.%2026-02-2023_JavaScript(Object%20Methods)/2.%20Object%20methods.js)

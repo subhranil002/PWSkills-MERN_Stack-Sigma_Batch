@@ -138,3 +138,19 @@
 ## 22-02-2023_JavaScript(Function Parameters)
 [Resources](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/A.%20README(Resources).md#22-02-2023_javascriptfunction-parameters)
 &nbsp;[Codes](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/B.%20README(Codes).md#22-02-2023_javascriptfunction-parameters)
+
+## 23-02-2023_JavaScript(Arrow Function & Anonymous Functions)
+[Resources](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/A.%20README(Resources).md#23-02-2023_javascriptarrow-function--anonymous-functions)
+&nbsp;[Codes](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/B.%20README(Codes).md#23-02-2023_javascriptarrow-function--anonymous-functions)
+
+## 24-02-2023_JavaScript(Expression Functions & Self Invoking Functions)
+[Resources](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/A.%20README(Resources).md#24-02-2023_javascriptexpression-functions--self-invoking-functions)
+&nbsp;[Codes](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/B.%20README(Codes).md#24-02-2023_javascriptexpression-functions--self-invoking-functions)
+
+## 25-02-2023_JavaScript(Introduction to Objects)
+[Resources](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/A.%20README(Resources).md#25-02-2023_javascriptintroduction-to-objects)
+&nbsp;[Codes](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/B.%20README(Codes).md#25-02-2023_javascriptintroduction-to-objects)
+
+## 26-02-2023_JavaScript(Object Methods)
+[Resources](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/A.%20README(Resources).md#26-02-2023_javascriptobject-methods)
+&nbsp;[Codes](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/B.%20README(Codes).md#26-02-2023_javascriptobject-methods)

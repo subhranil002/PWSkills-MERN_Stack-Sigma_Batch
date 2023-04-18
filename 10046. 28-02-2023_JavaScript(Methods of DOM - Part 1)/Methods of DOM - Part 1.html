@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Part 1</title>
+</head>
+
+<body>
+
+    <!-- ID -->
+    <p id="one"><span>Hello</span> Namaste</p>
+
+    <!-- Class -->
+    <ul>
+        <li class="tech">One</li>
+        <li class="tech">Two</li>
+        <li class="tech">Three</li>
+    </ul>
+
+    <!-- Tag Name -->
+    <h4>Hey</h4>
+    <h4>Namaste</h4>
+    <h4>Hola</h4>
+
+    <!-- Query Selector -->
+    <h2>Hehe</h2>
+    <h2 class="class1">Hehehe</h2>
+    <h2 id="id1">Hehehehe</h2>
+
+    <script>
+
+        // ID
+        let var1 = document.getElementById("one");
+        console.log(var1); // <p id="one"><span>Hello</span> Namaste</p>
+        console.log(var1.innerText); // Hello Namaste
+        console.log(var1.innerHTML); // <span>Hello</span> Namaste
+        var1.innerHTML = "Namaste";
+
+        // Class
+        let var2 = document.getElementsByClassName("tech");
+        console.log(var2); // HTMLCollection(3) [li.tech, li.tech, li.tech]
+        console.log(var2[2]); // li.tech
+        console.log(var2[1].innerText); // Two
+        var2[0].innerHTML = "NodeJs";
+
+        // Tag Name
+        let var3 = document.getElementsByTagName("h4");
+        console.log(var3); // HTMLCollection(3) [h4, h4, h4]
+        console.log(var3[0].innerText); // Hey
+        var3[0].innerText = "Hi";
+        var3[2].style.color = "red";
+
+        // Query Selector
+        let var4 = document.querySelector(".class1");
+        console.log(var4); // <h2 class="class1">Hehehe</h2>
+        let var5 = document.querySelector("#id1");
+        console.log(var5); // <h2 id="id1">Hehehehe</h2>
+        
+
+    </script>
+
+</body>
+
+</html>

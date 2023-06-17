@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>MoveTheImage</title>
+        <style>
+            img {
+                height: 100px;
+                margin-left: 0px;
+                margin-top: 0px;
+                transition-duration: 0.05s;
+                transition-delay: 0s;
+            }
+        </style>
+    </head>
+    <body>
+        <img
+            id="img"
+            src="https://pwskills.com/images/PWSkills-main.png"
+            alt="PWSkillsLogo"
+        />
+
+        <script>
+            let img = document.querySelector("#img");
+            let x = 0;
+            let y = 0;
+
+            document.addEventListener("keydown", (e) => {
+                switch (e.keyCode) {
+                    case 37:
+                        if (x > 0) {
+                            x -= 10;
+                            img.style.marginLeft = `${x}px`;
+                        }
+                        break;
+                    case 38:
+                        if (y > 0) {
+                            y -= 10;
+                            img.style.marginTop = `${y}px`;
+                        }
+                        break;
+                    case 39:
+                        if (x < screen.width) {
+                            x += 10;
+                            img.style.marginLeft = `${x}px`;
+                        }
+                        break;
+                    case 40:
+                        if (y < screen.height) {
+                            y += 10;
+                            img.style.marginTop = `${y}px`;
+                        }
+                        break;
+                }
+            });
+        </script>
+    </body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>TextHighlighting</title>
+        <style>
+            .hightlight {
+                background-color: yellow;
+            }
+        </style>
+    </head>
+    <body>
+        <p id="paragraph">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque
+            molestiae provident repellat expedita culpa facilis? Omnis provident
+            cum fuga labore!
+        </p>
+
+        <script>
+            const paragraph = document.getElementById("paragraph");
+            const words = paragraph.textContent.split(" ");
+
+            for (let i = 0; i < words.length; i++) {
+                word = words[i];
+
+                if (word.length > 8) {
+                    const span = document.createElement("span");
+                    span.textContent = word;
+                    span.classList.add("hightlight");
+                    words[i] = span.outerHTML;
+                }
+            }
+
+            const highlightedText = words.join(" ");
+            paragraph.innerHTML = highlightedText;
+        </script>
+    </body>
+</html>

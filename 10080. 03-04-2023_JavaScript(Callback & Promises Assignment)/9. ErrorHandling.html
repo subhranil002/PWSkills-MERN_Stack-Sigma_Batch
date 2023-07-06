@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+    </head>
+    <body>
+        <script>
+            fetch("https://jsonplaceholder.typicode.com/posts/123456789")
+                .then((response) => {
+                    try {
+                        if (!response.ok) {
+                            throw new Error("Network response was not okay");
+                        }
+                    } catch (error) {
+                        console.log(error);
+                    }
+                })
+                .catch((error) => {
+                    console.log(error);
+                });
+        </script>
+    </body>
+</html>

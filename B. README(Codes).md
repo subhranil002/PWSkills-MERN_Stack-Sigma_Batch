@@ -129,3 +129,42 @@
 ## 26-02-2023_JavaScript(Object Methods)
 
 #### [Object methods.js](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10044.%2026-02-2023_JavaScript(Object%20Methods)/2.%20Object%20methods.js)
+
+## 27-02-2023_JavaScript(Visualize of DOM and DOM and its Working)
+
+#### [void.txt](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10045.%2027-02-2023_JavaScript(Visualize%20of%20DOM%20and%20DOM%20and%20its%20Working)/1.%20Void/void.txt)
+
+## 28-02-2023_JavaScript(Methods of DOM - Part 1)
+
+#### [Methods of DOM - Part 1.html](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10046.%2028-02-2023_JavaScript(Methods%20of%20DOM%20-%20Part%201)/Methods%20of%20DOM%20-%20Part%201.html)
+
+## 01-03-2023_JavaScript(Methods of DOM - Part 2)
+
+#### [Methods of DOM - Part 2.html](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10047.%2001-03-2023_JavaScript(Methods%20of%20DOM%20-%20Part%202)/Methods%20of%20DOM%20-%20Part%202.html)
+
+## 02-03-2023_JavaScript(Methods of DOM - Part 3)
+
+#### [Methods of DOM - Part 3.html](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10048.%2002-03-2023_JavaScript(Methods%20of%20DOM%20-%20Part%203)/Methods%20of%20DOM%20-%20Part%203.html)
+
+## 03-03-2023_JavaScript(Color changer in DOM)
+
+#### [OnClick Colour Changer.html](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10049.%2003-03-2023_JavaScript(Color%20changer%20in%20DOM)/OnClick%20Colour%20Changer.html)
+
+## 04-03-2023_JavaScript(Assignment 1)
+
+#### [Counter App](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/tree/main/10050.%2004-03-2023_JavaScript(Assignment%201)/1.%20Counter%20App)
+
+#### [Event Listners](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/tree/main/10050.%2004-03-2023_JavaScript(Assignment%201)/2.%20Event%20Listners)
+
+
+
+
+
+
+
+
+
+
+
+
+

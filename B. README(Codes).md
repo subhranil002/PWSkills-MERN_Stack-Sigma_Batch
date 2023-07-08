@@ -156,6 +156,77 @@
 
 #### [Event Listners](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/tree/main/10050.%2004-03-2023_JavaScript(Assignment%201)/2.%20Event%20Listners)
 
+## 05-03-2023_JavaScript(Assignment 2.1)
+
+#### [PasswordValidator.js](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10051.%2005-03-2023_JavaScript(Assignment%202.1)/101.%20PasswordValidator.js)
+
+#### [Calculator.js](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10051.%2005-03-2023_JavaScript(Assignment%202.1)/102.%20Calculator.js)
+
+#### [ColorMixer.js](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10051.%2005-03-2023_JavaScript(Assignment%202.1)/103.%20ColorMixer.js)
+
+#### [HighestMarks.js](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10051.%2005-03-2023_JavaScript(Assignment%202.1)/104.%20HighestMarks.js)
+
+#### [Capitalize.js](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10051.%2005-03-2023_JavaScript(Assignment%202.1)/105.%20Capitalize.js)
+
+#### [VowelCounter.js](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10051.%2005-03-2023_JavaScript(Assignment%202.1)/106.%20VowelCounter.js)
+
+#### [RemoveDuplicates.js](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10051.%2005-03-2023_JavaScript(Assignment%202.1)/107.%20RemoveDuplicates.js)
+
+#### [Pattern.js](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10051.%2005-03-2023_JavaScript(Assignment%202.1)/108.%20Pattern.js)
+
+#### [CheckForDivisibility.js](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10051.%2005-03-2023_JavaScript(Assignment%202.1)/109.%20CheckForDivisibility.js)
+
+#### [CorrectBug.js](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10051.%2005-03-2023_JavaScript(Assignment%202.1)/110.%20CorrectBug.js)
+
+#### [UnitConverter.js](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10051.%2005-03-2023_JavaScript(Assignment%202.1)/111.%20UnitConverter.js)
+
+#### [CalculateRentalCost.js](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10051.%2005-03-2023_JavaScript(Assignment%202.1)/112.%20CalculateRentalCost.js)
+
+#### [BillSplitter.js](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10051.%2005-03-2023_JavaScript(Assignment%202.1)/113.%20BillSplitter.js)
+
+#### [CalculateFinalOrderPrice.js](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10051.%2005-03-2023_JavaScript(Assignment%202.1)/114.%20CalculateFinalOrderPrice.js)
+
+#### [PercentageOfDiscount.js](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10051.%2005-03-2023_JavaScript(Assignment%202.1)/115.%20PercentageOfDiscount.js)
+
+#### [RandomNumber.js](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10051.%2005-03-2023_JavaScript(Assignment%202.1)/116.%20RandomNumber.js)
+
+#### [BankingApplication.js](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10051.%2005-03-2023_JavaScript(Assignment%202.1)/117.%20BankingApplication.js)
+
+## 06-03-2023_JavaScript(Assignment 2.2)
+
+#### [ChangeTextOnButtonClick.html](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10052.%2006-03-2023_JavaScript(Assignment%202.2)/18.%20ChangeTextOnButtonClick.html)
+
+#### [ValidatePassword.html](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10052.%2006-03-2023_JavaScript(Assignment%202.2)/19.%20ValidatePassword.html)
+
+#### [DynamicallyAddingItems.html](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10052.%2006-03-2023_JavaScript(Assignment%202.2)/20.%20DynamicallyAddingItems.html)
+
+#### [SimpleToDoApp.html](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10052.%2006-03-2023_JavaScript(Assignment%202.2)/21.%20SimpleToDoApp.html)
+
+#### [ProgressBar.html](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10052.%2006-03-2023_JavaScript(Assignment%202.2)/22.%20ProgressBar.html)
+
+#### [ChangeTheColorOnClick.html](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10052.%2006-03-2023_JavaScript(Assignment%202.2)/23.%20ChangeTheColorOnClick.html)
+
+#### [TextHighlighting.html](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10052.%2006-03-2023_JavaScript(Assignment%202.2)/24.%20TextHighlighting.html)
+
+#### [MoveTheImage.html](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10052.%2006-03-2023_JavaScript(Assignment%202.2)/25.%20MoveTheImage.html)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

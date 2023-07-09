@@ -210,14 +210,43 @@
 
 #### [MoveTheImage.html](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10052.%2006-03-2023_JavaScript(Assignment%202.2)/25.%20MoveTheImage.html)
 
+## 07-03-2023_JavaScript(Higher Order Function (HOF))
 
+#### [HigherOrderFunction.js](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10053.%2007-03-2023_JavaScript(Higher%20Order%20Function%20(HOF))/2.%20HigherOrderFunction.js)
 
+## 08-03-2023_JavaScript(Callback, Returning function)
 
+#### [Callback-Returning Functions.js](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10054.%2008-03-2023_JavaScript(Callback%2C%20Returning%20function)/2.%20Callback-Returning%20Functions.js)
 
+## 09-03-2023_JavaScript(Setting time (Setinterval, SetTimeout))
 
+#### [SetInterval & SetTimeout.js](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10055.%2009-03-2023_JavaScript(Setting%20time%20(Setinterval%2C%20SetTimeout))/2.%20SetInterval%20%26%20SetTimeout.js)
 
+## 10-03-2023_JavaScript(For each, map, filte)
 
+#### [ForEach, Map, Filter.js](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10056.%2010-03-2023_JavaScript(For%20each%2C%20map%2C%20filte)/2.%20ForEach%2C%20Map%2C%20Filter.js)
 
+## 11-03-2023_JavaScript(reduce, every, find, sort)
+
+#### [Reduce, Every, Find.js](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10057.%2011-03-2023_JavaScript(reduce%2C%20every%2C%20find%2C%20sort)/3.%20Reduce%2C%20Every%2C%20Find.js)
+
+## 12-03-2023_JavaScript(Regex and importance)
+
+#### [RegEx.js](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10058.%2012-03-2023_JavaScript(Regex%20and%20importance)/3.%20RegEx.js)
+
+## 13-03-2023_JavaScript(HOF Assignment)
+
+#### [ReverseString.js](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10059.%2013-03-2023_JavaScript(HOF%20Assignment)/1.%20ReverseString.js)
+
+#### [RandomNumberGeneratorWithDelay.js](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10059.%2013-03-2023_JavaScript(HOF%20Assignment)/2.%20RandomNumberGeneratorWithDelay.js)
+
+#### [Store'sInventory.js](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10059.%2013-03-2023_JavaScript(HOF%20Assignment)/3.%20Store'sInventory.js)
+
+#### [FilteringCapitalizing.js](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10059.%2013-03-2023_JavaScript(HOF%20Assignment)/4.%20FilteringCapitalizing.js)
+
+#### [URL Validation.js](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10059.%2013-03-2023_JavaScript(HOF%20Assignment)/5.%20URL%20Validation.js)
+
+#### [LinkedIn Profile URL Validator.js](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10059.%2013-03-2023_JavaScript(HOF%20Assignment)/6.%20LinkedIn%20Profile%20URL%20Validator.js)
 
 
 

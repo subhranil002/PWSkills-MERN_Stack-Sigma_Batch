@@ -271,3 +271,59 @@
 ## 26-02-2023_JavaScript(Object Methods)
 
 #### [Object methods.pdf](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10044.%2026-02-2023_JavaScript(Object%20Methods)/1.%20Object%20methods.pdf)
+
+## 07-03-2023_JavaScript(Higher Order Function (HOF))
+
+#### [What are higher order function.pdf](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10053.%2007-03-2023_JavaScript(Higher%20Order%20Function%20(HOF))/1.%20What%20are%20higher%20order%20function.pdf)
+
+## 08-03-2023_JavaScript(Callback, Returning function)
+
+#### [Callback and Returning function.pdf](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10054.%2008-03-2023_JavaScript(Callback%2C%20Returning%20function)/1.%20Callback%20and%20Returning%20function.pdf)
+
+## 09-03-2023_JavaScript(Setting time (Setinterval, SetTimeout))
+
+#### [Setting Time (Set Interval and Set timeout).pdf](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10055.%2009-03-2023_JavaScript(Setting%20time%20(Setinterval%2C%20SetTimeout))/1.%20Setting%20Time%20(Set%20Interval%20and%20Set%20timeout).pdf)
+
+## 10-03-2023_JavaScript(For each, map, filte)
+
+#### [For each, map, filter.pdf](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10056.%2010-03-2023_JavaScript(For%20each%2C%20map%2C%20filte)/1.%20For%20each%2C%20map%2C%20filter.pdf)
+
+## 11-03-2023_JavaScript(reduce, every, find, sort)
+
+#### [Reduce.pdf](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10057.%2011-03-2023_JavaScript(reduce%2C%20every%2C%20find%2C%20sort)/1.%20Reduce.pdf)
+
+#### [Every, find, sort.pdf](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10057.%2011-03-2023_JavaScript(reduce%2C%20every%2C%20find%2C%20sort)/2.%20Every%2C%20find%2C%20sort.pdf)
+
+## 12-03-2023_JavaScript(Regex and importance)
+
+#### [What is regex](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10058.%2012-03-2023_JavaScript(Regex%20and%20importance)/1.%20What%20is%20regex%20and%20Different%20Character%20in%20Regex%20and%20importance.pdf)
+
+#### [Writing regex with example.pdf](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10058.%2012-03-2023_JavaScript(Regex%20and%20importance)/2.%20Writing%20regex%20with%20example.pdf)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

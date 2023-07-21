@@ -1,0 +1,512 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Manrope";
+}
+
+/*******************
+***** Defaults *****
+*******************/
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+/*******************
+****** Header ******
+*******************/
+
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url("./Images/mainBackground.png");
+    background-position: center;
+    background-size: cover;
+    height: 125vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header-main {
+    width: 90vw;
+    height: 100%;
+}
+
+/*******************
+******* NAV *******
+*******************/
+
+.nav-outer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+nav .logo {
+    height: 40px;
+    padding-left: 50px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 40%;
+    margin-right: 10%;
+}
+
+nav ul li {
+    font-weight: 900;
+}
+
+nav ul li a {
+    color: #fff;
+}
+
+.nav-underline {
+    background-color: #fff;
+    height: 2px;
+    width: 95%;
+    margin-right: 50px;
+}
+
+/*******************
+******* HERO *******
+*******************/
+
+.hero {
+    margin-left: 70px;
+    width: 550px;
+    margin-top: 60px;
+}
+
+.hero h1 {
+    font-size: 60px;
+    font-weight: 800;
+    color: #fff;
+}
+
+.hero p {
+    font-size: 18px;
+    width: 75%;
+    margin: 30px 0px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.hero button {
+    background: #6663e9;
+    border: none;
+    border-radius: 30px;
+    padding: 10px 30px;
+    color: #ffffff;
+    font-weight: 800;
+    font-size: 18px;
+}
+
+/*******************
+******* LOGOS ******
+*******************/
+
+.logos {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logos ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    height: 120px;
+    background-color: #fff;
+    margin: -60px 0px;
+    padding: 0px 50px;
+    border-radius: 20px;
+}
+
+/*******************
+***** Main ADs *****
+*******************/
+
+.ads {
+    width: 100%;
+    background-color: #f5f8fa;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ads-main {
+    width: 97%;
+}
+
+.ads-main-heading {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.ads-main-heading h1 {
+    color: #000;
+    font-size: 60px;
+    text-align: center;
+    font-weight: 800;
+}
+
+/*******************
+******* Cards ******
+*******************/
+
+.cards {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 400px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card img {
+    width: 366px;
+    height: 400px;
+    border-radius: 20px;
+}
+
+.card-details {
+    width: 325px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 0px 20px;
+    margin-top: -60px;
+}
+
+.card-details div h3 {
+    color: #000;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.card-details div p {
+    color: #6663e9;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.card-details button {
+    background: #6663e9;
+    border: none;
+    border-radius: 30px;
+    padding: 10px 30px;
+    color: #ffffff;
+    font-weight: 800;
+    font-size: 18px;
+}
+
+.card1 {
+    margin-top: -100px;
+}
+
+.card2 {
+    margin-top: -50px;
+}
+
+.card3 {
+    margin-top: 0px;
+}
+
+/**********************
+** Early Bird Offers ** 
+**********************/
+
+.earlybird {
+    width: 100%;
+    background-color: #f5f8fa;
+}
+
+.feature1 {
+    margin-bottom: 100px;
+}
+
+.feature1,
+.feature2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.feature1 div:first-child {
+    display: flex;
+    align-items: center;
+}
+
+.feature1 img:first-child {
+    width: 725px;
+    height: 455px;
+    margin-left: -80px;
+}
+
+.feature1 img:last-child {
+    width: 405px;
+    height: 405px;
+    position: absolute;
+    left: 115px;
+    margin-top: -170px;
+    border-radius: 55px;
+}
+
+.feature1 div:last-child {
+    width: 50%;
+    height: 400px;
+}
+
+.feature1 h1,
+p,
+button,
+.feature2 h1,
+p,
+button {
+    color: #000;
+}
+
+.feature1 h1,
+.feature2 h1 {
+    font-size: 60px;
+    font-weight: 800;
+    letter-spacing: 0.01em;
+    margin-bottom: 30px;
+}
+
+.feature1 p,
+.feature2 p {
+    font-weight: 500;
+    font-size: 18px;
+    color: #585c65;
+    margin-bottom: 40px;
+    width: 80%;
+}
+
+.feature1 button,
+.feature2 button {
+    background: #6663e9;
+    border: none;
+    border-radius: 30px;
+    padding: 10px 30px;
+    color: #ffffff;
+    font-weight: 800;
+    font-size: 18px;
+}
+
+.feature2 div:first-child {
+    width: 40%;
+    height: 400px;
+    margin-left: 50px;
+}
+
+.feature2 div:last-child {
+    display: flex;
+    align-items: center;
+}
+
+.feature2 img:first-child {
+    width: 625px;
+    height: 455px;
+}
+
+.feature2 img:last-child {
+    width: 405px;
+    height: 405px;
+    position: absolute;
+    right: 115px;
+    margin-top: -170px;
+    border-radius: 55px;
+}
+
+/**********************
+***** Newsletter ****** 
+**********************/
+
+.newsletter {
+    background: #f5f8fa;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.newsletter-main {
+    margin: 50px 0px;
+    background-color: #6663e9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    text-align: center;
+    border-radius: 70px;
+    box-shadow: 0px 4px 60px rgba(0, 0, 0, 0.05);
+    height: 500px;
+    width: 80%;
+}
+
+.newsletter-main h1 {
+    font-weight: 800;
+    font-size: 60px;
+    color: #fff;
+}
+
+.newsletter-main p {
+    font-weight: 600;
+    font-size: 18px;
+    width: 58%;
+    color: #fff;
+}
+
+.newsletter-input form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.email-input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    border: none;
+    background: #5654d1;
+    border-radius: 30px;
+}
+
+.email-input img {
+    margin-left: 15px;
+}
+
+.email-input input {
+    padding: 15px 30px;
+    width: 300px;
+    background: #5654d1;
+    border: none;
+    border-radius: 0 30px 30px 0;
+}
+
+.email-input input::placeholder {
+    color: #fff;
+    font-size: 16px;
+}
+
+.newsletter-input form button {
+    background: #ffffff;
+    border: none;
+    border-radius: 30px;
+    padding: 10px 30px;
+    color: #6663e9;
+    font-weight: 800;
+    font-size: 18px;
+}
+
+/******************
+***** Footer ****** 
+******************/
+
+footer {
+    width: 100%;
+    background-color: #f5f8fa;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0px;
+}
+
+.footer-main {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-left {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 40%;
+}
+
+.footer-left > img {
+    width: 150px;
+}
+
+.social {
+    display: flex;
+    gap: 20px;
+}
+
+.social img {
+    width: 45px;
+}
+
+.footer-left p {
+    font-weight: 700;
+    font-size: 18px;
+    width: 58%;
+}
+
+.footer-right {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.footer-links ul {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footer-links ul li {
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.footer-links ul li:first-child {
+    font-weight: 900;
+    font-size: 24px;
+}
+
+.footer-links ul li a {
+    color: #000;
+}

@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "IBM Plex Sans", sans-serif;
+}
+
+/*******************
+***** Defaults *****
+*******************/
+
+a {
+    text-decoration: none;
+    color: unset;
+}
+
+li {
+    list-style: none;
+}
+
+body {
+    background-color: #f0f4f5;
+}
+
+/*******************
+******* NAV *******
+*******************/
+
+nav {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-main {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-main img {
+    height: 50px;
+}
+
+.nav-main ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 30%;
+}
+
+.nav-main ul li {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+/*******************
+***** Header *******
+*******************/
+
+header {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header > img {
+    width: 35%;
+    position: absolute;
+    top: 50px;
+    left: 350px;
+}
+
+.header-main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 80px;
+    width: 100%;
+}
+
+.header-left {
+    width: 40%;
+    margin-left: 150px;
+}
+
+.hero-text {
+    position: relative;
+}
+
+.topangle,
+.bottomangle,
+.mouse {
+    width: 20px;
+}
+
+.hero-text h1 {
+    font-size: 70px;
+}
+
+.hero-text p {
+    color: #7c7c7c;
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+.hero-text button {
+    color: white;
+    border: none;
+    padding: 15px 40px;
+    border-radius: 40px;
+    background-color: #20bc7e;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.bottomangle {
+    position: absolute;
+    right: 30px;
+}
+
+.mouse {
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: 10px;
+}
+
+.header-right {
+    position: relative;
+    height: 300px;
+    width: 465px;
+}
+
+.header-right img {
+    display: block;
+}
+
+.header-right img:first-child {
+    width: 450px;
+    position: absolute;
+    z-index: -3;
+}
+
+.header-right img:nth-child(2) {
+    width: 400px;
+    position: absolute;
+    z-index: -2;
+    top: 100px;
+    left: 65px;
+}
+
+.header-right img:last-child {
+    width: 500px;
+    z-index: -1;
+    position: relative;
+    top: -170px;
+    left: -35px;
+}

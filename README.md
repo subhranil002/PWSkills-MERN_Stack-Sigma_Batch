@@ -154,3 +154,4 @@
 ## 26-02-2023_JavaScript(Object Methods)
 [Resources](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/A.%20README(Resources).md#26-02-2023_javascriptobject-methods)
 &nbsp;[Codes](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/B.%20README(Codes).md#26-02-2023_javascriptobject-methods)
+

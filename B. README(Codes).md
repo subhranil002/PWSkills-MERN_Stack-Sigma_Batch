@@ -248,6 +248,115 @@
 
 #### [LinkedIn Profile URL Validator.js](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10059.%2013-03-2023_JavaScript(HOF%20Assignment)/6.%20LinkedIn%20Profile%20URL%20Validator.js)
 
+## 14-03-2023_JavaScript(Arguments Keyword)
+
+#### [Arguments.js](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10060.%2014-03-2023_JavaScript(Arguments%20Keyword)/Arguments.js)
+
+## 15-03-2023_JavaScript(Set)
+
+#### [Set.js](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10061.%2015-03-2023_JavaScript(Set)/Set.js)
+
+## 16-03-2023_JavaScript(Set Difference)
+
+#### [SetDifference.js](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10062.%2016-03-2023_JavaScript(Set%20Difference)/SetDifference.js)
+
+## 17-03-2023_JavaScript(Map)
+
+#### [Map.js](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10063.%2017-03-2023_JavaScript(Map)/Map.js)
+
+## 18-03-2023_JavaScript(Spread Operator)
+
+#### [SpreadOperator.js](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10064.%2018-03-2023_JavaScript(Spread%20Operator)/SpreadOperator.js)
+
+## 19-03-2023_JavaScript(Rest Operator)
+
+#### [RestOperator.js](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10065.%2019-03-2023_JavaScript(Rest%20Operator)/RestOperator.js)
+
+## 20-03-2023_JavaScript(Destructuring Assignment) 
+
+#### [CountTheOccurrences.js](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10066.%2020-03-2023_JavaScript(Destructuring%20Assignment)/1.%20CountTheOccurrences.js)
+
+#### [UniqueItems.js](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10066.%2020-03-2023_JavaScript(Destructuring%20Assignment)/2.%20UniqueItems.js)
+
+#### [SwapValues.js](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10066.%2020-03-2023_JavaScript(Destructuring%20Assignment)/3.%20SwapValues.js)
+
+#### [AccessRandomElements.js](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10066.%2020-03-2023_JavaScript(Destructuring%20Assignment)/4.%20AccessRandomElements.js)
+
+#### [Min & Max Values.js](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10066.%2020-03-2023_JavaScript(Destructuring%20Assignment)/5.%20Min%20%26%20Max%20Values.js)
+
+#### [NestedObjects.js](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10066.%2020-03-2023_JavaScript(Destructuring%20Assignment)/6.%20NestedObjects.js)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

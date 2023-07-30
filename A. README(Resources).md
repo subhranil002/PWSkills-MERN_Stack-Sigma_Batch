@@ -300,16 +300,39 @@
 
 #### [Writing regex with example.pdf](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10058.%2012-03-2023_JavaScript(Regex%20and%20importance)/2.%20Writing%20regex%20with%20example.pdf)
 
+## 21-03-2023_JavaScript(Try and Catch)
 
+#### [Try and Catch.pdf](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10067.%2021-03-2023_JavaScript(Try%20and%20Catch)/1.%20Try%20and%20Catch.pdf)
 
+#### [Use of try-catch in real-world Application.pdf](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10067.%2021-03-2023_JavaScript(Try%20and%20Catch)/2.%20Use%20of%20try-catch%20in%20real-world%20Application.pdf)
 
+## 22-03-2023_JavaScript(Class)
 
+#### [Defining a class, Class Instantiation.pdf](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10068.%2022-03-2023_JavaScript(Class)/1.%20Defining%20a%20class%2C%20Class%20Instantiation.pdf)
 
+## 23-03-2023_JavaScript(Class Constructor & Methods)
 
+#### [Class Constructor, Default values with constructor.pdf](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10069.%2023-03-2023_JavaScript(Class%20Constructor%20%26%20Methods)/1.%20Class%20Constructor%2C%20Default%20values%20with%20constructor.pdf)
 
+#### [Class methods and Properties with initial value.pdf](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10069.%2023-03-2023_JavaScript(Class%20Constructor%20%26%20Methods)/2.%20Class%20methods%20and%20Properties%20with%20initial%20value.pdf)
 
+## 24-03-2023_JavaScript(Getter and Setter)
 
+#### [Getters and Setters.pdf](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10070.%2024-03-2023_JavaScript(Getter%20and%20Setter)/1.%20Getters%20and%20Setters.pdf)
 
+## 25-03-2023_JavaScript(Prototypes)
+
+#### [How prototypes Work.pdf](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10071.%2025-03-2023_JavaScript(Prototypes)/1.%20How%20prototypes%20Work.pdf)
+
+#### [Explaining Prototypes.pdf](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10071.%2025-03-2023_JavaScript(Prototypes)/2.%20Explaining%20Prototypes.pdf)
+
+#### [How we manipulate `this` using Prototypes.pdf](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10071.%2025-03-2023_JavaScript(Prototypes)/3.%20How%20we%20manipulate%20%60this%60%20using%20Prototypes.pdf)
+
+## 26-03-2023_JavaScript(Closure)
+
+#### [Explaining what is closure_.pdf](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10072.%2026-03-2023_JavaScript(Closure)/1.%20_Explaining%20what%20is%20closure_.pdf)
+
+#### [First Program in Closure and Understanding Closures.pdf](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10072.%2026-03-2023_JavaScript(Closure)/2.%20First%20Program%20in%20Closure%20and%20Understanding%20Closures.pdf)
 
 
 

@@ -286,19 +286,55 @@
 
 #### [NestedObjects.js](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10066.%2020-03-2023_JavaScript(Destructuring%20Assignment)/6.%20NestedObjects.js)
 
+## 21-03-2023_JavaScript(Try and Catch)
 
+#### [Try & Catch.js](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10067.%2021-03-2023_JavaScript(Try%20and%20Catch)/3.%20Try%20%26%20Catch.js)
 
+## 22-03-2023_JavaScript(Class)
 
+#### [Class.js](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10068.%2022-03-2023_JavaScript(Class)/2.%20Class.js)
 
+## 23-03-2023_JavaScript(Class Constructor & Methods)
 
+#### [Class Constructor.js](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10069.%2023-03-2023_JavaScript(Class%20Constructor%20%26%20Methods)/3.%20Class%20Constructor.js)
 
+#### [Class Methods.js](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10069.%2023-03-2023_JavaScript(Class%20Constructor%20%26%20Methods)/4.%20Class%20Methods.js)
 
+## 24-03-2023_JavaScript(Getter and Setter)
 
+#### [Getter and Setter.js](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10070.%2024-03-2023_JavaScript(Getter%20and%20Setter)/2.%20Getter%20and%20Setter.js)
 
+#### [ComplexNumber.js](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10070.%2024-03-2023_JavaScript(Getter%20and%20Setter)/3.%20ComplexNumber.js)
 
+## 25-03-2023_JavaScript(Prototypes)
 
+#### [Prototypes.js](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10071.%2025-03-2023_JavaScript(Prototypes)/4.%20Prototypes.js)
 
+## 26-03-2023_JavaScript(Closure)
 
+#### [Closures.js](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10072.%2026-03-2023_JavaScript(Closure)/3.%20Closures.js)
+
+## 27-03-2023_JavaScript(Error Handling & Prototypes Assignment)
+
+#### [TypeConversion.js](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10073.%2027-03-2023_JavaScript(Error%20Handling%20%26%20Prototypes%20Assignment)/101.%20TypeConversion.js)
+
+#### [RobustFunctions.js](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10073.%2027-03-2023_JavaScript(Error%20Handling%20%26%20Prototypes%20Assignment)/102.%20%20RobustFunctions.js)
+
+#### [CarDescription.js](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10073.%2027-03-2023_JavaScript(Error%20Handling%20%26%20Prototypes%20Assignment)/103.%20CarDescription.js)
+
+#### [EmployeeClass.js](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10073.%2027-03-2023_JavaScript(Error%20Handling%20%26%20Prototypes%20Assignment)/104.%20EmployeeClass.js)
+
+#### [PersonClass.js](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10073.%2027-03-2023_JavaScript(Error%20Handling%20%26%20Prototypes%20Assignment)/105.%20PersonClass.js)
+
+#### [CalculatorClass.js](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10073.%2027-03-2023_JavaScript(Error%20Handling%20%26%20Prototypes%20Assignment)/106.%20CalculatorClass.js)
+
+#### [PasswordChecker.js](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10073.%2027-03-2023_JavaScript(Error%20Handling%20%26%20Prototypes%20Assignment)/107.%20PasswordChecker.js)
+
+#### [MethodPrototype.js](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10073.%2027-03-2023_JavaScript(Error%20Handling%20%26%20Prototypes%20Assignment)/108.%20MethodPrototype.js)
+
+#### [CheckThePresence.js](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10073.%2027-03-2023_JavaScript(Error%20Handling%20%26%20Prototypes%20Assignment)/109.%20CheckThePresence.js)
+
+#### [FilterCategory.js](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10073.%2027-03-2023_JavaScript(Error%20Handling%20%26%20Prototypes%20Assignment)/110.%20FilterCategory.js)
 
 
 

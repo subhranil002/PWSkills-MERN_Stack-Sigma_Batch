@@ -1,0 +1,204 @@
+mysql> show databases;
++--------------------+
+| Database           |
++--------------------+
+| information_schema |
+| movies_database    |
+| mysql              |
+| performance_schema |
+| sys                |
++--------------------+
+5 rows in set (0.01 sec)                                                                                                                                                                                                                        mysql> create database movies_db_pw;
+Query OK, 1 row affected (0.01 sec)                                                                                                                                                                                                             mysql> show databases;
++--------------------+
+| Database           |
++--------------------+
+| information_schema |
+| movies_database    |
+| movies_db_pw       |
+| mysql              |
+| performance_schema |
+| sys                |                                                                                                  
++--------------------+                                                                                                  
+6 rows in set (0.00 sec)                                                                                                                                                                                                                        mysql> use movies_db_pw;                                                                                                
+Database changed                                                                                                        
+mysql> create table actors (                                                                                                
+-> firstname varchar(20),                                                                                               
+-> lastname varchar(20),                                                                                                
+-> gender varchar(10),                                                                                                  
+-> net_worth integer);                                                                                              
+Query OK, 0 rows affected (0.04 sec)                                                                                                                                                                                                            mysql> show tables;                                                                                                     
++------------------------+                                                                                              
+| Tables_in_movies_db_pw |                                                                                              
++------------------------+                                                                                              
+| actors                 |                                                                                              
++------------------------+                                                                                              
+1 row in set (0.00 sec)                                                                                                                                                                                                                                                                                                  mysql> insert into actors                                                                                                   
+-> (firstname, lastname, gender, net_worth)                                                                             
+-> values                                                                                                               
+-> ("johny","depp", "male", 200),                                                                                       
+-> ("chris","hemsworth", "male", 400),                                                                                  
+-> ("scarlett","johnson", "female", 500),                                                                               
+-> ("chris","evans", "male", 700),                                                                                      
+-> ("paul","rudd", "male", 650);                                                                                    
+Query OK, 5 rows affected (0.01 sec)                                                                                    
+Records: 5  Duplicates: 0  Warnings: 0                                                                                                                                                                                                          mysql> select * from actors;                                                                                            
++-----------+-----------+--------+-----------+                                                                          
+| firstname | lastname  | gender | net_worth |                                                                          
++-----------+-----------+--------+-----------+                                                                          
+| johny     | depp      | male   |       200 |                                                                          
+| chris     | hemsworth | male   |       400 |                                                                          
+| scarlett  | johnson   | female |       500 |                                                                          
+| chris     | evans     | male   |       700 |                                                                          
+| paul      | rudd      | male   |       650 |                                                                          
++-----------+-----------+--------+-----------+                                                                          
+5 rows in set (0.00 sec)                                                                                                                                                                                                                        mysql> select * from actors                                                                                                 
+-> where                                                                                                                
+-> net_worth >= 500;                                                                                                
++-----------+----------+--------+-----------+                                                                           
+| firstname | lastname | gender | net_worth |                                                                           
++-----------+----------+--------+-----------+                                                                           
+| scarlett  | johnson  | female |       500 |                                                                           
+| chris     | evans    | male   |       700 |                                                                           
+| paul      | rudd     | male   |       650 |                                                                           
++-----------+----------+--------+-----------+                                                                           
+3 rows in set (0.00 sec)                                                                                                                                                                                                                                                                                mysql> select * from actors                                                                                                 
+-> where                                                                                                                
+-> net_worth >= 500 or net_worth < 300;                                                                             
++-----------+----------+--------+-----------+                                                                           
+| firstname | lastname | gender | net_worth |                                                                           
++-----------+----------+--------+-----------+                                                                           
+| johny     | depp     | male   |       200 |                                                                           
+| scarlett  | johnson  | female |       500 |                                                                           
+| chris     | evans    | male   |       700 |                                                                           
+| paul      | rudd     | male   |       650 |                                                                           
++-----------+----------+--------+-----------+                                                                           
+4 rows in set (0.00 sec)                                                                                                                                                                                                                        mysql> select * from actors                                                                                                 
+-> where                                                                                                                
+-> gender = "female";                                                                                               
++-----------+----------+--------+-----------+                                                                           
+| firstname | lastname | gender | net_worth |                                                                           
++-----------+----------+--------+-----------+                                                                           
+| scarlett  | johnson  | female |       500 |                                                                           
++-----------+----------+--------+-----------+                                                                           
+1 row in set (0.00 sec)                                                                                                                                                                                                                         mysql> select firstname, net_worth from actors                                                                              
+-> where                                                                                                                
+-> gender = "female";                                                                                               
++-----------+-----------+                                                                                               
+| firstname | net_worth |                                                                                               
++-----------+-----------+                                                                                               
+| scarlett  |       500 |                                                                                               
++-----------+-----------+                                                                                               
+1 row in set (0.00 sec)                                                                                                                                                                                                                         mysql> select * from actors                                                                                                 
+-> where                                                                                                                
+-> firstname like "ch%";                                                                                            
++-----------+-----------+--------+-----------+                                                                          
+| firstname | lastname  | gender | net_worth |                                                                          
++-----------+-----------+--------+-----------+                                                                          
+| chris     | hemsworth | male   |       400 |                                                                          
+| chris     | evans     | male   |       700 |                                                                          
++-----------+-----------+--------+-----------+                                                                          
+2 rows in set (0.00 sec)                                                                                                                                                                                                                        mysql> select * from actors                                                                                                 
+-> where                                                                                                                
+-> lastname like "%n%";                                                                                             
++-----------+----------+--------+-----------+                                                                           
+| firstname | lastname | gender | net_worth |                                                                           
++-----------+----------+--------+-----------+                                                                           
+| scarlett  | johnson  | female |       500 |                                                                           
+| chris     | evans    | male   |       700 |                                                                           
++-----------+----------+--------+-----------+                                                                           
+2 rows in set (0.00 sec)                                                                                                                                                                                                                        mysql> select * from actors                                                                                                 
+-> order by net_worth asc;                                                                                          
++-----------+-----------+--------+-----------+                                                                          
+| firstname | lastname  | gender | net_worth |                                                                          
++-----------+-----------+--------+-----------+                                                                          
+| johny     | depp      | male   |       200 |                                                                          
+| chris     | hemsworth | male   |       400 |                                                                          
+| scarlett  | johnson   | female |       500 |                                                                          
+| paul      | rudd      | male   |       650 |                                                                          
+| chris     | evans     | male   |       700 |                                                                          
++-----------+-----------+--------+-----------+                                                                          
+5 rows in set (0.00 sec)                                                                                                                                                                                                                        mysql> select * from actors                                                                                                 
+-> order by net_worth desc;                                                                                         
++-----------+-----------+--------+-----------+                                                                          
+| firstname | lastname  | gender | net_worth |                                                                          
++-----------+-----------+--------+-----------+                                                                          
+| chris     | evans     | male   |       700 |                                                                          
+| paul      | rudd      | male   |       650 |                                                                          
+| scarlett  | johnson   | female |       500 |                                                                          
+| chris     | hemsworth | male   |       400 |                                                                          
+| johny     | depp      | male   |       200 |                                                                          
++-----------+-----------+--------+-----------+                                                                          
+5 rows in set (0.00 sec)                                                                                                                                                                                                                        mysql> select * from actors                                                                                                 
+-> order by firstname asc;                                                                                         
+ +-----------+-----------+--------+-----------+                                                                          
+| firstname | lastname  | gender | net_worth |                                                                          
++-----------+-----------+--------+-----------+                                                                          
+| chris     | hemsworth | male   |       400 |                                                                          
+| chris     | evans     | male   |       700 |                                                                          
+| johny     | depp      | male   |       200 |                                                                          
+| paul      | rudd      | male   |       650 |                                                                          
+| scarlett  | johnson   | female |       500 |                                                                          
++-----------+-----------+--------+-----------+                                                                          
+5 rows in set (0.00 sec)                                                                                                                                                                                                                        mysql> select * from actors                                                                                                 
+-> order by firstname, net_worth desc;                                                                              
++-----------+-----------+--------+-----------+                                                                          
+| firstname | lastname  | gender | net_worth |                                                                          
++-----------+-----------+--------+-----------+                                                                          
+| chris     | evans     | male   |       700 |                                                                          
+| chris     | hemsworth | male   |       400 |                                                                          
+| johny     | depp      | male   |       200 |                                                                          
+| paul      | rudd      | male   |       650 |                                                                          
+| scarlett  | johnson   | female |       500 |                                                                          
++-----------+-----------+--------+-----------+                                                                          
+5 rows in set (0.00 sec)                                                                                                                                                                                                                        mysql> select * from actors limit 3;                                                                                    
++-----------+-----------+--------+-----------+                                                                          
+| firstname | lastname  | gender | net_worth |                                                                          
++-----------+-----------+--------+-----------+                                                                          
+| johny     | depp      | male   |       200 |                                                                          
+| chris     | hemsworth | male   |       400 |                                                                          
+| scarlett  | johnson   | female |       500 |                                                                          
++-----------+-----------+--------+-----------+                                                                          
+3 rows in set (0.00 sec)                                                                                                                                                                                                                        mysql> select * from actors limit 2;                                                                                    
++-----------+-----------+--------+-----------+                                                                          
+| firstname | lastname  | gender | net_worth |                                                                          
++-----------+-----------+--------+-----------+                                                                          
+| johny     | depp      | male   |       200 |                                                                          
+| chris     | hemsworth | male   |       400 |                                                                          
++-----------+-----------+--------+-----------+                                                                          
+2 rows in set (0.00 sec)                                                                                                                                                                                                                        mysql> select * from actors limit 2 offset 0;                                                                           
++-----------+-----------+--------+-----------+                                                                          
+| firstname | lastname  | gender | net_worth |                                                                          
++-----------+-----------+--------+-----------+                                                                          
+| johny     | depp      | male   |       200 |                                                                          
+| chris     | hemsworth | male   |       400 |                                                                          
++-----------+-----------+--------+-----------+                                                                          
+2 rows in set (0.00 sec)                                                                                                                                                                                                                        mysql> select * from actors limit 2 offset 2;                                                                           
++-----------+----------+--------+-----------+                                                                           
+| firstname | lastname | gender | net_worth |                                                                           
++-----------+----------+--------+-----------+                                                                           
+| scarlett  | johnson  | female |       500 |                                                                           
+| chris     | evans    | male   |       700 |                                                                           
++-----------+----------+--------+-----------+                                                                           
+2 rows in set (0.00 sec)                                                                                                                                                                                                                        mysql> select * from actors limit 2 offset 4;                                                                           
++-----------+----------+--------+-----------+                                                                           
+| firstname | lastname | gender | net_worth |                                                                           
++-----------+----------+--------+-----------+                                                                           
+| paul      | rudd     | male   |       650 |                                                                           
++-----------+----------+--------+-----------+                                                                           
+1 row in set (0.00 sec)                                                                                                                                                                                                                         mysql> select * from actors limit 2 offset 6;                                                                           
+Empty set (0.00 sec)                                                                                                                                                                                                                            mysql> update actors                                                                                                        
+-> set net_worth = 500                                                                                                  
+-> where firstname = "paul";                                                                                        
+Query OK, 1 row affected (0.01 sec)                                                                                     
+Rows matched: 1  Changed: 1  Warnings: 0                                                                                                                                                                                                        mysql> select * from actors;                                                                                            
++-----------+-----------+--------+-----------+                                                                          
+| firstname | lastname  | gender | net_worth |                                                                          
++-----------+-----------+--------+-----------+                                                                          
+| johny     | depp      | male   |       200 |                                                                          
+| chris     | hemsworth | male   |       400 |                                                                          
+| scarlett  | johnson   | female |       500 |                                                                          
+| chris     | evans     | male   |       700 |                                                                          
+| paul      | rudd      | male   |       500 |                                                                          
++-----------+-----------+--------+-----------+                                                                          
+5 rows in set (0.00 sec)                                                                                                                                                                                                                        mysql>  

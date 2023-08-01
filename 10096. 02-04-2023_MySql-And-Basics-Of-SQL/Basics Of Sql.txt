@@ -1,0 +1,35 @@
+mysql> show databases;                                                                                                  +--------------------+
+| Database           |                                                                                                  +--------------------+
+| information_schema |
+| mysql              |
+| performance_schema |
+| sys                |                                                                                                  +--------------------+
+4 rows in set (0.00 sec)                                                                                                                                                                                                                        mysql> create database Movies_Database;
+Query OK, 1 row affected (0.01 sec)                                                                                                                                                                                                             mysql> show databases;                                                                                                  +--------------------+
+| Database           |                                                                                                  +--------------------+
+| information_schema |
+| movies_database    |
+| mysql              |
+| performance_schema |
+| sys                |                                                                                                  +--------------------+
+5 rows in set (0.00 sec)                                                                                                                                                                                                                        mysql> use movies_database;
+Database changed
+mysql> create table movies (
+-> name varchar(100),
+-> rating integer);
+Query OK, 0 rows affected (0.03 sec)                                                                                                                                                                                                            mysql> show tables;                                                                                                     +---------------------------+
+| Tables_in_movies_database |                                                                                           +---------------------------+
+| movies                    |                                                                                           +---------------------------+
+1 row in set (0.01 sec)                                                                                                                                                                                                                         mysql> insert into movies
+-> (name, rating)
+-> values
+-> ("Avengers Infinity War", 5);
+Query OK, 1 row affected (0.01 sec)                                                                                                                                                                                                             mysql> insert into movies
+-> (name, rating)
+-> values
+-> ("Avengers End Game", 5);
+Query OK, 1 row affected (0.00 sec)                                                                                                                                                                                                             mysql> select * from movies;                                                                                            +-----------------------+--------+
+| name                  | rating |                                                                                      +-----------------------+--------+
+| Avengers Infinity War |      5 |
+| Avengers End Game     |      5 |                                                                                      +-----------------------+--------+
+2 rows in set (0.00 sec)                                                                                                                                                                                                                        mysql> 

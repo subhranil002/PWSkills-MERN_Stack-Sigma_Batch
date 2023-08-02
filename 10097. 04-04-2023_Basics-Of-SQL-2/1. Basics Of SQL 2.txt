@@ -226,4 +226,4 @@ mysql> select * from actors;
 | chris     | evans     | male   |       700 |                                                                          
 | paul      | rudd      | male   |       500 |                                                                          
 +-----------+-----------+--------+-----------+                                                                          
-5 rows in set (0.00 sec)                                                                                                                                                                                                                        mysql>  
+5 rows in set (0.00 sec)                                                                                                                                                                                                                         

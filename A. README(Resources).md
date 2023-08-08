@@ -334,6 +334,68 @@
 
 #### [First Program in Closure and Understanding Closures.pdf](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10072.%2026-03-2023_JavaScript(Closure)/2.%20First%20Program%20in%20Closure%20and%20Understanding%20Closures.pdf)
 
+## 28-03-2023_JavaScript(Callback)
+
+#### [Callback.pdf](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10074.%2028-03-2023_JavaScript(Callback)/1.%20Callback.pdf)
+
+## 30-03-2023_JavaScript(Promises 1)
+
+#### [Promise Constructor.pdf](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10076.%2030-03-2023_JavaScript(Promises%201)/1.%20Promise%20Constructor.pdf)
+
+## 01-04-2023_JavaScript(Async & Await)
+
+#### [Async and Await.pdf](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10078.%2001-04-2023_JavaScript(Async%20%26%20Await)/1.%20Async%20and%20Await.pdf)
+
+## 02-04-2023_JavaScript(Introduction to API)
+
+#### [Fetch API.pdf](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10079.%2002-04-2023_JavaScript(Introduction%20to%20API)/1.%20Fetch%20API.pdf)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

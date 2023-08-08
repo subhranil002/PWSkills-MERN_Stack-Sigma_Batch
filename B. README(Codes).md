@@ -382,6 +382,18 @@
 
 #### [ErrorHandling.html](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10080.%2003-04-2023_JavaScript(Callback%20%26%20Promises%20Assignment)/9.%20ErrorHandling.html)
 
+## 04-04-2023_JavaScript(Working Of JS Assignment)
+
+#### [FunctionHoisting1.js](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10081.%2004-04-2023_JavaScript(Working%20Of%20JS%20Assignment)/1.%20FunctionHoisting1.js)
+
+#### [FunctionHoisting2.js](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10081.%2004-04-2023_JavaScript(Working%20Of%20JS%20Assignment)/2.%20FunctionHoisting2.js)
+
+#### [VariableHoisting1.js](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10081.%2004-04-2023_JavaScript(Working%20Of%20JS%20Assignment)/3.%20VariableHoisting1.js)
+
+#### [VariableHoisting2.js](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10081.%2004-04-2023_JavaScript(Working%20Of%20JS%20Assignment)/4.%20VariableHoisting2.js)
+
+#### [TemporalDeadZone.js](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/10081.%2004-04-2023_JavaScript(Working%20Of%20JS%20Assignment)/5.%20TemporalDeadZone.js)
+
 
 
 

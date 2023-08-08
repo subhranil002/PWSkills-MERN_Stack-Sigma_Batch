@@ -1,0 +1,724 @@
+test> show dbs
+admin       40.00 KiB
+config      72.00 KiB
+local       40.00 KiB
+university  40.00 KiB
+
+test> use university
+switched to db university
+
+university> db.students.insertMany([{name: "sarthak", standard: 11, marks: 80}, {name: "jd", marks: 90, age: 18}, {name: "tanmay", marks: 75, rollno: 2112, phone: 9899889}])
+{
+  acknowledged: true,
+  insertedIds: {
+    '0': ObjectId("64d0b598e18e3cf208b2bfce"),
+    '1': ObjectId("64d0b598e18e3cf208b2bfcf"),
+    '2': ObjectId("64d0b598e18e3cf208b2bfd0")
+  }
+}
+university> db.students.find()
+[
+  {
+    _id: ObjectId("64ce6a42463fa3eed1e27ce7"),
+    name: 'subhranil',
+    standard: '12',
+    marks: 94,
+    age: 17,
+    rollno: 1085
+  },
+  {
+    _id: ObjectId("64d0b598e18e3cf208b2bfce"),
+    name: 'sarthak',
+    standard: 11,
+    marks: 80
+  },
+  {
+    _id: ObjectId("64d0b598e18e3cf208b2bfcf"),
+    name: 'jd',
+    marks: 90,
+    age: 18
+  },
+  {
+    _id: ObjectId("64d0b598e18e3cf208b2bfd0"),
+    name: 'tanmay',
+    marks: 75,
+    rollno: 2112,
+    phone: 9899889
+  }
+]
+
+university> db.students.insertOne({name: "anurag", subjects: ["web", "java"]})
+{
+  acknowledged: true,
+  insertedId: ObjectId("64d0b6f3e18e3cf208b2bfd1")
+}
+
+university> db.students.find()
+[
+  {
+    _id: ObjectId("64ce6a42463fa3eed1e27ce7"),
+    name: 'subhranil',
+    standard: '12',
+    marks: 94,
+    age: 17,
+    rollno: 1085
+  },
+  {
+    _id: ObjectId("64d0b598e18e3cf208b2bfce"),
+    name: 'sarthak',
+    standard: 11,
+    marks: 80
+  },
+  {
+    _id: ObjectId("64d0b598e18e3cf208b2bfcf"),
+    name: 'jd',
+    marks: 90,
+    age: 18
+  },
+  {
+    _id: ObjectId("64d0b598e18e3cf208b2bfd0"),
+    name: 'tanmay',
+    marks: 75,
+    rollno: 2112,
+    phone: 9899889
+  },
+  {
+    _id: ObjectId("64d0b6f3e18e3cf208b2bfd1"),
+    name: 'anurag',
+    subjects: ['web', 'java']
+  }
+]
+
+university> show dbs
+Weather     2.50 MiB
+admin       40.00 KiB
+config      108.00 KiB
+local       40.00 KiB
+university  72.00 KiB
+
+university> use Weather
+switched to db Weather
+
+Weather> show collections
+weather_data
+
+Weather> db.weather_data.find().count()
+10000
+
+Weather> db.weather_data.find().limit(3)
+[
+  {
+    _id: ObjectId("5553a998e4b02cf7151190b8"),
+    st: 'x+47600-047900',
+    ts: ISODate("1984-03-05T13:00:00.000Z"),
+    position: { type: 'Point', coordinates: [ -47.9, 47.6 ] },
+    elevation: 9999,
+    callLetters: 'VCSZ',
+    qualityControlProcess: 'V020',
+    dataSource: '4',
+    type: 'FM-13',
+    airTemperature: { value: -3.1, quality: '1' },
+    dewPoint: { value: 999.9, quality: '9' },
+    pressure: { value: 1015.3, quality: '1' },
+    wind: {
+      direction: { angle: 999, quality: '9' },
+      type: '9',
+      speed: { rate: 999.9, quality: '9' }
+    },
+    visibility: {
+      distance: { value: 999999, quality: '9' },
+      variability: { value: 'N', quality: '9' }
+    },
+    skyCondition: {
+      ceilingHeight: { value: 99999, quality: '9', determination: '9' },
+      cavok: 'N'
+    },
+    sections: [ 'AG1' ],
+    precipitationEstimatedObservation: { discrepancy: '2', estimatedWaterDepth: 999 }
+  },
+  {
+    _id: ObjectId("5553a998e4b02cf7151190b9"),
+    st: 'x+45200-066500',
+    ts: ISODate("1984-03-05T14:00:00.000Z"),
+    position: { type: 'Point', coordinates: [ -66.5, 45.2 ] },
+    elevation: 9999,
+    callLetters: 'VC81',
+    qualityControlProcess: 'V020',
+    dataSource: '4',
+    type: 'FM-13',
+    airTemperature: { value: -4.7, quality: '1' },
+    dewPoint: { value: 999.9, quality: '9' },
+    pressure: { value: 1025.9, quality: '1' },
+    wind: {
+      direction: { angle: 999, quality: '9' },
+      type: '9',
+      speed: { rate: 999.9, quality: '9' }
+    },
+    visibility: {
+      distance: { value: 999999, quality: '9' },
+      variability: { value: 'N', quality: '9' }
+    },
+    skyCondition: {
+      ceilingHeight: { value: 99999, quality: '9', determination: '9' },
+      cavok: 'N'
+    },
+    sections: [ 'AG1' ],
+    precipitationEstimatedObservation: { discrepancy: '2', estimatedWaterDepth: 999 }
+  },
+  {
+    _id: ObjectId("5553a998e4b02cf7151190ba"),
+    st: 'x+51900+003600',
+    ts: ISODate("1984-03-05T14:00:00.000Z"),
+    position: { type: 'Point', coordinates: [ 3.6, 51.9 ] },
+    elevation: 9999,
+    callLetters: 'PLAT',
+    qualityControlProcess: 'V020',
+    dataSource: '4',
+    type: 'FM-13',
+    airTemperature: { value: 4.4, quality: '1' },
+    dewPoint: { value: 3.5, quality: '1' },
+    pressure: { value: 1030.8, quality: '1' },
+    wind: {
+      direction: { angle: 200, quality: '1' },
+      type: 'N',
+      speed: { rate: 1, quality: '1' }
+    },
+    visibility: {
+      distance: { value: 999999, quality: '9' },
+      variability: { value: 'N', quality: '9' }
+    },
+    skyCondition: {
+      ceilingHeight: { value: 99999, quality: '9', determination: '9' },
+      cavok: 'N'
+    },
+    sections: [ 'AG1', 'MD1', 'OA1', 'SA1', 'UA1' ],
+    precipitationEstimatedObservation: { discrepancy: '2', estimatedWaterDepth: 999 },
+    atmosphericPressureChange: {
+      tendency: { code: '2', quality: '1' },
+      quantity3Hours: { value: 0.9, quality: '1' },
+      quantity24Hours: { value: 99.9, quality: '9' }
+    },
+    seaSurfaceTemperature: { value: 4.5, quality: '9' },
+    waveMeasurement: {
+      method: 'I',
+      waves: { period: 4, height: 0.5, quality: '9' },
+      seaState: { code: '99', quality: '9' }
+    }
+  }
+]
+Weather> db.weather_data.find().skip(10).limit(2)
+[
+  {
+    _id: ObjectId("5553a998e4b02cf7151190c2"),
+    st: 'x+68400+011800',
+    ts: ISODate("1984-03-05T15:00:00.000Z"),
+    position: { type: 'Point', coordinates: [ 11.8, 68.4 ] },
+    elevation: 9999,
+    callLetters: 'LAQU',
+    qualityControlProcess: 'V020',
+    dataSource: '4',
+    type: 'FM-13',
+    airTemperature: { value: 2, quality: '1' },
+    dewPoint: { value: -2, quality: '1' },
+    pressure: { value: 999.3, quality: '1' },
+    wind: {
+      direction: { angle: 280, quality: '1' },
+      type: 'N',
+      speed: { rate: 12.3, quality: '1' }
+    },
+    visibility: {
+      distance: { value: 4000, quality: '1' },
+      variability: { value: 'N', quality: '9' }
+    },
+    skyCondition: {
+      ceilingHeight: { value: 420, quality: '1', determination: 'C' },
+      cavok: 'N'
+    },
+    sections: [ 'AG1', 'AY1', 'GF1', 'MD1', 'MW1', 'SA1', 'UA1' ],
+    precipitationEstimatedObservation: { discrepancy: '2', estimatedWaterDepth: 2 },
+    pastWeatherObservationManual: [
+      {
+        atmosphericCondition: { value: '8', quality: '1' },
+        period: { value: 3, quality: '1' }
+      }
+    ],
+    skyConditionObservation: {
+      totalCoverage: { value: '08', opaque: '99', quality: '1' },
+      lowestCloudCoverage: { value: '08', quality: '1' },
+      lowCloudGenus: { value: '09', quality: '1' },
+      lowestCloudBaseHeight: { value: 450, quality: '1' },
+      midCloudGenus: { value: '99', quality: '9' },
+      highCloudGenus: { value: '99', quality: '9' }
+    },
+    atmosphericPressureChange: {
+      tendency: { code: '2', quality: '1' },
+      quantity3Hours: { value: 1.3, quality: '1' },
+      quantity24Hours: { value: 99.9, quality: '9' }
+    },
+    presentWeatherObservationManual: [{ condition: '26', quality: '1' }],
+    seaSurfaceTemperature: { value: 6, quality: '9' },
+    waveMeasurement: {
+      method: 'M',
+      waves: { period: 6, height: 3.5, quality: '9' },
+      seaState: { code: '99', quality: '9' }
+    }
+  },
+  {
+    _id: ObjectId("5553a998e4b02cf7151190c3"),
+    st: 'x+56500+002100',
+    ts: ISODate("1984-03-05T15:00:00.000Z"),
+    position: { type: 'Point', coordinates: [ 2.1, 56.5 ] },
+    elevation: 9999,
+    callLetters: 'PLAT',
+    qualityControlProcess: 'V020',
+    dataSource: '4',
+    type: 'FM-13',
+    airTemperature: { value: 7.1, quality: '1' },
+    dewPoint: { value: 999.9, quality: '9' },
+    pressure: { value: 1028.2, quality: '1' },
+    wind: {
+      direction: { angle: 320, quality: '1' },
+      type: 'N',
+      speed: { rate: 4.1, quality: '1' }
+    },
+    visibility: {
+      distance: { value: 20000, quality: '1' },
+      variability: { value: 'N', quality: '9' }
+    },
+    skyCondition: {
+      ceilingHeight: { value: 22000, quality: '1', determination: 'C' },
+      cavok: 'N'
+    },
+    sections: [ 'AG1', 'AY1', 'GF1', 'MD1', 'MW1', 'OA1', 'UA1' ],
+    precipitationEstimatedObservation: { discrepancy: '2', estimatedWaterDepth: 0 },
+    pastWeatherObservationManual: [
+      {
+        atmosphericCondition: { value: '0', quality: '1' },
+        period: { value: 3, quality: '1' }
+      }
+    ],
+    skyConditionObservation: {
+      totalCoverage: { value: '00', opaque: '99', quality: '1' },
+      lowestCloudCoverage: { value: '00', quality: '1' },
+      lowCloudGenus: { value: '00', quality: '1' },
+      lowestCloudBaseHeight: { value: 99999, quality: '9' },
+      midCloudGenus: { value: '00', quality: '1' },
+      highCloudGenus: { value: '00', quality: '1' }
+    },
+    atmosphericPressureChange: {
+      tendency: { code: '2', quality: '1' },
+      quantity3Hours: { value: 0.4, quality: '1' },
+      quantity24Hours: { value: 99.9, quality: '9' }
+    },
+    presentWeatherObservationManual: [{ condition: '02', quality: '1' }],
+    waveMeasurement: {
+      method: 'M',
+      waves: { period: 5, height: 0.5, quality: '9' },
+      seaState: { code: '00', quality: '9' }
+    }
+  }
+]
+
+Weather> db.weather_data.find({type: 'FM-13'}).count()
+9994
+
+Weather> db.weather_data.find({type: 'FM-13'}, {position: true, visibility: true}).count()
+9994
+
+Weather> db.weather_data.find({type: 'FM-13'}, {position: true, visibility: true}).limit(3)
+[
+  {
+    _id: ObjectId("5553a998e4b02cf7151190b8"),
+    position: { type: 'Point', coordinates: [ -47.9, 47.6 ] },
+    visibility: {
+      distance: { value: 999999, quality: '9' },
+      variability: { value: 'N', quality: '9' }
+    }
+  },
+  {
+    _id: ObjectId("5553a998e4b02cf7151190b9"),
+    position: { type: 'Point', coordinates: [ -66.5, 45.2 ] },
+    visibility: {
+      distance: { value: 999999, quality: '9' },
+      variability: { value: 'N', quality: '9' }
+    }
+  },
+  {
+    _id: ObjectId("5553a998e4b02cf7151190ba"),
+    position: { type: 'Point', coordinates: [ 3.6, 51.9 ] },
+    visibility: {
+      distance: { value: 999999, quality: '9' },
+      variability: { value: 'N', quality: '9' }
+    }
+  }
+]
+
+Weather> db.weather_data.find({}, {position: false, visibility: false}).limit(3)
+[
+  {
+    _id: ObjectId("5553a998e4b02cf7151190b8"),
+    st: 'x+47600-047900',
+    ts: ISODate("1984-03-05T13:00:00.000Z"),
+    elevation: 9999,
+    callLetters: 'VCSZ',
+    qualityControlProcess: 'V020',
+    dataSource: '4',
+    type: 'FM-13',
+    airTemperature: { value: -3.1, quality: '1' },
+    dewPoint: { value: 999.9, quality: '9' },
+    pressure: { value: 1015.3, quality: '1' },
+    wind: {
+      direction: { angle: 999, quality: '9' },
+      type: '9',
+      speed: { rate: 999.9, quality: '9' }
+    },
+    skyCondition: {
+      ceilingHeight: { value: 99999, quality: '9', determination: '9' },
+      cavok: 'N'
+    },
+    sections: [ 'AG1' ],
+    precipitationEstimatedObservation: { discrepancy: '2', estimatedWaterDepth: 999 }
+  },
+  {
+    _id: ObjectId("5553a998e4b02cf7151190b9"),
+    st: 'x+45200-066500',
+    ts: ISODate("1984-03-05T14:00:00.000Z"),
+    elevation: 9999,
+    callLetters: 'VC81',
+    qualityControlProcess: 'V020',
+    dataSource: '4',
+    type: 'FM-13',
+    airTemperature: { value: -4.7, quality: '1' },
+    dewPoint: { value: 999.9, quality: '9' },
+    pressure: { value: 1025.9, quality: '1' },
+    wind: {
+      direction: { angle: 999, quality: '9' },
+      type: '9',
+      speed: { rate: 999.9, quality: '9' }
+    },
+    skyCondition: {
+      ceilingHeight: { value: 99999, quality: '9', determination: '9' },
+      cavok: 'N'
+    },
+    sections: [ 'AG1' ],
+    precipitationEstimatedObservation: { discrepancy: '2', estimatedWaterDepth: 999 }
+  },
+  {
+    _id: ObjectId("5553a998e4b02cf7151190ba"),
+    st: 'x+51900+003600',
+    ts: ISODate("1984-03-05T14:00:00.000Z"),
+    elevation: 9999,
+    callLetters: 'PLAT',
+    qualityControlProcess: 'V020',
+    dataSource: '4',
+    type: 'FM-13',
+    airTemperature: { value: 4.4, quality: '1' },
+    dewPoint: { value: 3.5, quality: '1' },
+    pressure: { value: 1030.8, quality: '1' },
+    wind: {
+      direction: { angle: 200, quality: '1' },
+      type: 'N',
+      speed: { rate: 1, quality: '1' }
+    },
+    skyCondition: {
+      ceilingHeight: { value: 99999, quality: '9', determination: '9' },
+      cavok: 'N'
+    },
+    sections: [ 'AG1', 'MD1', 'OA1', 'SA1', 'UA1' ],
+    precipitationEstimatedObservation: { discrepancy: '2', estimatedWaterDepth: 999 },
+    atmosphericPressureChange: {
+      tendency: { code: '2', quality: '1' },
+      quantity3Hours: { value: 0.9, quality: '1' },
+      quantity24Hours: { value: 99.9, quality: '9' }
+    },
+    seaSurfaceTemperature: { value: 4.5, quality: '9' },
+    waveMeasurement: {
+      method: 'I',
+      waves: { period: 4, height: 0.5, quality: '9' },
+      seaState: { code: '99', quality: '9' }
+    }
+  }
+]
+
+Weather> db.weather_data.deleteOne({st: 'x-19300+060300'})
+{ acknowledged: true, deletedCount: 1 }
+Weather> db.weather_data.find().count()
+9999
+Weather> db.weather_data.find({callLetters: 'FNPG'}).count()
+7
+Weather> db.weather_data.deleteMany({callLetters: 'FNPG'})
+{ acknowledged: true, deletedCount: 7 }
+Weather> db.weather_data.find().count()
+9992
+Weather> db.weather_data.find().skip(1).limit(2)
+[
+  {
+    _id: ObjectId("5553a998e4b02cf7151190b9"),
+    st: 'x+45200-066500',
+    ts: ISODate("1984-03-05T14:00:00.000Z"),
+    position: { type: 'Point', coordinates: [ -66.5, 45.2 ] },
+    elevation: 9999,
+    callLetters: 'VC81',
+    qualityControlProcess: 'V020',
+    dataSource: '4',
+    type: 'FM-13',
+    airTemperature: { value: -4.7, quality: '1' },
+    dewPoint: { value: 999.9, quality: '9' },
+    pressure: { value: 1025.9, quality: '1' },
+    wind: {
+      direction: { angle: 999, quality: '9' },
+      type: '9',
+      speed: { rate: 999.9, quality: '9' }
+    },
+    visibility: {
+      distance: { value: 999999, quality: '9' },
+      variability: { value: 'N', quality: '9' }
+    },
+    skyCondition: {
+      ceilingHeight: { value: 99999, quality: '9', determination: '9' },
+      cavok: 'N'
+    },
+    sections: [ 'AG1' ],
+    precipitationEstimatedObservation: { discrepancy: '2', estimatedWaterDepth: 999 },
+    atmosphericPressureChange: {
+      tendency: { code: '2', quality: '1' },
+      quantity3Hours: { value: 0.9, quality: '1' },
+      quantity24Hours: { value: 99.9, quality: '9' }
+    },
+    seaSurfaceTemperature: { value: 4.5, quality: '9' },
+    waveMeasurement: {
+      method: 'I',
+      waves: { period: 4, height: 0.5, quality: '9' },
+      seaState: { code: '99', quality: '9' }
+    }
+  },
+  {
+    _id: ObjectId("5553a998e4b02cf7151190ba"),
+    st: 'x+51900+003600',
+    ts: ISODate("1984-03-05T14:00:00.000Z"),
+    position: { type: 'Point', coordinates: [ 3.6, 51.9 ] },
+    elevation: 9999,
+    callLetters: 'PLAT',
+    qualityControlProcess: 'V020',
+    dataSource: '4',
+    type: 'FM-13',
+    airTemperature: { value: 4.4, quality: '1' },
+    dewPoint: { value: 3.5, quality: '1' },
+    pressure: { value: 1030.8, quality: '1' },
+    wind: {
+      direction: { angle: 200, quality: '1' },
+      type: 'N',
+      speed: { rate: 1, quality: '1' }
+    },
+    visibility: {
+      distance: { value: 999999, quality: '9' },
+      variability: { value: 'N', quality: '9' }
+    },
+    skyCondition: {
+      ceilingHeight: { value: 99999, quality: '9', determination: '9' },
+      cavok: 'N'
+    },
+    sections: [ 'AG1', 'MD1', 'OA1', 'SA1', 'UA1' ],
+    precipitationEstimatedObservation: { discrepancy: '2', estimatedWaterDepth: 999 },
+    atmosphericPressureChange: {
+      tendency: { code: '2', quality: '1' },
+      quantity3Hours: { value: 0.9, quality: '1' },
+      quantity24Hours: { value: 99.9, quality: '9' }
+    },
+    seaSurfaceTemperature: { value: 4.5, quality: '9' },
+    waveMeasurement: {
+      method: 'I',
+      waves: { period: 4, height: 0.5, quality: '9' },
+      seaState: { code: '99', quality: '9' }
+    }
+  }
+]
+Weather> db.weather_data.find().skip(1).limit(1)
+[
+  {
+    _id: ObjectId("5553a998e4b02cf7151190b9"),
+    st: 'x+45200-066500',
+    ts: ISODate("1984-03-05T14:00:00.000Z"),
+    position: { type: 'Point', coordinates: [ -66.5, 45.2 ] },
+    elevation: 9999,
+    callLetters: 'VC81',
+    qualityControlProcess: 'V020',
+    dataSource: '4',
+    type: 'FM-13',
+    airTemperature: { value: -4.7, quality: '1' },
+    dewPoint: { value: 999.9, quality: '9' },
+    pressure: { value: 1025.9, quality: '1' },
+    wind: {
+      direction: { angle: 999, quality: '9' },
+      type: '9',
+      speed: { rate: 999.9, quality: '9' }
+    },
+    visibility: {
+      distance: { value: 999999, quality: '9' },
+      variability: { value: 'N', quality: '9' }
+    },
+    skyCondition: {
+      ceilingHeight: { value: 99999, quality: '9', determination: '9' },
+      cavok: 'N'
+    },
+    sections: [ 'AG1' ],
+    precipitationEstimatedObservation: { discrepancy: '2', estimatedWaterDepth: 999 },
+    atmosphericPressureChange: {
+      tendency: { code: '2', quality: '1' },
+      quantity3Hours: { value: 0.9, quality: '1' },
+      quantity24Hours: { value: 99.9, quality: '9' }
+    },
+    seaSurfaceTemperature: { value: 4.5, quality: '9' },
+    waveMeasurement: {
+      method: 'I',
+      waves: { period: 4, height: 0.5, quality: '9' },
+      seaState: { code: '99', quality: '9' }
+    }
+  }
+]
+Weather> db.weather_data.find().limit(1)
+[
+  {
+    _id: ObjectId("5553a998e4b02cf7151190b8"),
+    st: 'x+47600-047900',
+    ts: ISODate("1984-03-05T13:00:00.000Z"),
+    position: { type: 'Point', coordinates: [ -47.9, 47.6 ] },
+    elevation: 9999,
+    callLetters: 'VCSZ',
+    qualityControlProcess: 'V020',
+    dataSource: '4',
+    type: 'FM-13',
+    airTemperature: { value: -3.1, quality: '1' },
+    dewPoint: { value: 999.9, quality: '9' },
+    pressure: { value: 1015.3, quality: '1' },
+    wind: {
+      direction: { angle: 999, quality: '9' },
+      type: '9',
+      speed: { rate: 999.9, quality: '9' }
+    },
+    visibility: {
+      distance: { value: 999999, quality: '9' },
+      variability: { value: 'N', quality: '9' }
+    },
+    skyCondition: {
+      ceilingHeight: { value: 99999, quality: '9', determination: '9' },
+      cavok: 'N'
+    },
+    sections: [ 'AG1' ],
+    precipitationEstimatedObservation: { discrepancy: '2', estimatedWaterDepth: 999 },
+    atmosphericPressureChange: {
+      tendency: { code: '2', quality: '1' },
+      quantity3Hours: { value: 0.9, quality: '1' },
+      quantity24Hours: { value: 99.9, quality: '9' }
+    },
+    seaSurfaceTemperature: { value: 4.5, quality: '9' },
+    waveMeasurement: {
+      method: 'I',
+      waves: { period: 4, height: 0.5, quality: '9' },
+      seaState: { code: '99', quality: '9' }
+    }
+  }
+]
+Weather> db.weather_data.updateOne({_id: ObjectId("5553a998e4b02cf7151190b8")}, {$set: {elevation: 9988}})
+{
+  acknowledged: true,
+  insertedId: null,
+  matchedCount: 1,
+  modifiedCount: 1,
+  upsertedCount: 0
+}
+Weather> db.weather_data.find().limit(1)
+[
+  {
+    _id: ObjectId("5553a998e4b02cf7151190b8"),
+    st: 'x+47600-047900',
+    ts: ISODate("1984-03-05T13:00:00.000Z"),
+    position: { type: 'Point', coordinates: [ -47.9, 47.6 ] },
+    elevation: 9988,
+    callLetters: 'VCSZ',
+    qualityControlProcess: 'V020',
+    dataSource: '4',
+    type: 'FM-13',
+    airTemperature: { value: -3.1, quality: '1' },
+    dewPoint: { value: 999.9, quality: '9' },
+    pressure: { value: 1015.3, quality: '1' },
+    wind: {
+      direction: { angle: 999, quality: '9' },
+      type: '9',
+      speed: { rate: 999.9, quality: '9' }
+    },
+    visibility: {
+      distance: { value: 999999, quality: '9' },
+      variability: { value: 'N', quality: '9' }
+    },
+    skyCondition: {
+      ceilingHeight: { value: 99999, quality: '9', determination: '9' },
+      cavok: 'N'
+    },
+    sections: [ 'AG1' ],
+    precipitationEstimatedObservation: { discrepancy: '2', estimatedWaterDepth: 999 },
+    atmosphericPressureChange: {
+      tendency: { code: '2', quality: '1' },
+      quantity3Hours: { value: 0.9, quality: '1' },
+      quantity24Hours: { value: 99.9, quality: '9' }
+    },
+    seaSurfaceTemperature: { value: 4.5, quality: '9' },
+    waveMeasurement: {
+      method: 'I',
+      waves: { period: 4, height: 0.5, quality: '9' },
+      seaState: { code: '99', quality: '9' }
+    }
+  }
+]
+Weather> db.weather_data.updateOne({_id: ObjectId("5553a998e4b02cf7151190b8")}, {$inc: {elevation: 1}})
+{
+  acknowledged: true,
+  insertedId: null,
+  matchedCount: 1,
+  modifiedCount: 1,
+  upsertedCount: 0
+}
+Weather> db.weather_data.find().limit(1)
+[
+  {
+    _id: ObjectId("5553a998e4b02cf7151190b8"),
+    st: 'x+47600-047900',
+    ts: ISODate("1984-03-05T13:00:00.000Z"),
+    position: { type: 'Point', coordinates: [ -47.9, 47.6 ] },
+    elevation: 9989,
+    callLetters: 'VCSZ',
+    qualityControlProcess: 'V020',
+    dataSource: '4',
+    type: 'FM-13',
+    airTemperature: { value: -3.1, quality: '1' },
+    dewPoint: { value: 999.9, quality: '9' },
+    pressure: { value: 1015.3, quality: '1' },
+    wind: {
+      direction: { angle: 999, quality: '9' },
+      type: '9',
+      speed: { rate: 999.9, quality: '9' }
+    },
+    visibility: {
+      distance: { value: 999999, quality: '9' },
+      variability: { value: 'N', quality: '9' }
+    },
+    skyCondition: {
+      ceilingHeight: { value: 99999, quality: '9', determination: '9' },
+      cavok: 'N'
+    },
+    sections: [ 'AG1' ],
+    precipitationEstimatedObservation: { discrepancy: '2', estimatedWaterDepth: 999 },
+    atmosphericPressureChange: {
+      tendency: { code: '2', quality: '1' },
+      quantity3Hours: { value: 0.9, quality: '1' },
+      quantity24Hours: { value: 99.9, quality: '9' }
+    },
+    seaSurfaceTemperature: { value: 4.5, quality: '9' },
+    waveMeasurement: {
+      method: 'I',
+      waves: { period: 4, height: 0.5, quality: '9' },
+      seaState: { code: '99', quality: '9' }
+    }
+  }
+]
+Weather>

@@ -1,0 +1,316 @@
+test> use Weather
+switched to db Weather
+
+Weather> show collections
+weather_data
+
+Weather> db.weather_data.find().limit(1)
+[
+  {
+    _id: ObjectId("5553a998e4b02cf7151190b8"),
+    st: 'x+47600-047900',
+    ts: ISODate("1984-03-05T13:00:00.000Z"),
+    position: { type: 'Point', coordinates: [ -47.9, 47.6 ] },
+    elevation: 9989,
+    callLetters: 'VCSZ',
+    qualityControlProcess: 'V020',
+    dataSource: '4',
+    type: 'FM-13',
+    airTemperature: { value: -3.1, quality: '1' },
+    dewPoint: { value: 999.9, quality: '9' },
+    pressure: { value: 1015.3, quality: '1' },
+    wind: {
+      direction: { angle: 999, quality: '9' },
+      type: '9',
+      speed: { rate: 999.9, quality: '9' }
+    },
+    visibility: {
+      distance: { value: 999999, quality: '9' },
+      variability: { value: 'N', quality: '9' }
+    },
+    skyCondition: {
+      ceilingHeight: { value: 99999, quality: '9', determination: '9' },
+      cavok: 'N'
+    },
+    sections: [ 'AG1' ],
+    precipitationEstimatedObservation: { discrepancy: '2', estimatedWaterDepth: 999 }
+  }
+]
+
+Weather> db.weather_data.distinct("type")
+[ 'FM-13', 'SAO' ]
+
+Weather> db.weather_data.distinct("callLetters")
+[
+  '0BVZ', '0JSV', '2100', '3DRO', '3DRV', '3EBA', '3EDA',
+  '3EEJ', '3EEK', '3EFI', '3EFQ', '3EGC', '3EGU', '3EHC',
+  ... 2548 more items
+]
+
+Weather> db.weather_data.find({type: {$ne: "FM-13"}}).count()
+6
+
+Weather> db.weather_data.find({"dewPoint.value": {$gt: 999}}).count()
+5115
+
+Weather> db.weather_data.find({"dewPoint.value": {$lt: 999}}).count()
+4877
+
+Weather> db.weather_data.find({$and: [{"dewPoint.value": {$gt: 999}}, {"dewPoint.value": {$lt: 1000}}]}).count()
+5115
+
+Weather> db.weather_data.find({callLetters: {$in: ["3EHH", "3EIZ", "3EJF"]}}).count()
+17
+
+Weather> db.weather_data.find({type: "SAO"}).explain("executionStats")
+{
+  explainVersion: '1',
+  queryPlanner: {
+    namespace: 'Weather.weather_data',
+    indexFilterSet: false,
+    parsedQuery: { type: { '$eq': 'SAO' } },
+    queryHash: '3D98D089',
+    planCacheKey: '3D98D089',
+    maxIndexedOrSolutionsReached: false,
+    maxIndexedAndSolutionsReached: false,
+    maxScansToExplodeReached: false,
+    winningPlan: {
+      stage: 'COLLSCAN',
+      filter: { type: { '$eq': 'SAO' } },
+      direction: 'forward'
+    },
+    rejectedPlans: []
+  },
+  executionStats: {
+    executionSuccess: true,
+    nReturned: 6,
+    executionTimeMillis: 11,
+    totalKeysExamined: 0,
+    totalDocsExamined: 9992,
+    executionStages: {
+      stage: 'COLLSCAN',
+      filter: { type: { '$eq': 'SAO' } },
+      nReturned: 6,
+      executionTimeMillisEstimate: 0,
+      works: 9993,
+      advanced: 6,
+      needTime: 9986,
+      needYield: 0,
+      saveState: 9,
+      restoreState: 9,
+      isEOF: 1,
+      direction: 'forward',
+      docsExamined: 9992
+    }
+  },
+  command: { find: 'weather_data', filter: { type: 'SAO' }, '$db': 'Weather' },
+  serverInfo: {
+    host: 'Subhranil',
+    port: 27017,
+    version: '6.0.8',
+    gitVersion: '3d84c0dd4e5d99be0d69003652313e7eaf4cdd74'
+  },
+  serverParameters: {
+    internalQueryFacetBufferSizeBytes: 104857600,
+    internalQueryFacetMaxOutputDocSizeBytes: 104857600,
+    internalLookupStageIntermediateDocumentMaxSizeBytes: 104857600,
+    internalDocumentSourceGroupMaxMemoryBytes: 104857600,
+    internalQueryMaxBlockingSortMemoryUsageBytes: 104857600,
+    internalQueryProhibitBlockingMergeOnMongoS: 0,
+    internalQueryMaxAddToSetBytes: 104857600,
+    internalDocumentSourceSetWindowFieldsMaxMemoryBytes: 104857600
+  },
+  ok: 1
+}
+Weather> db.weather_data.getIndexes()
+[ { v: 2, key: { _id: 1 }, name: '_id_' } ]
+
+Weather> db.weather_data.updateMany({type: "SAO"}, {$set: {elevation: 5000}})
+{
+  acknowledged: true,
+  insertedId: null,
+  matchedCount: 6,
+  modifiedCount: 6,
+  upsertedCount: 0
+}
+
+Weather> db.weather_data.find({elevation: {$lt: 9000}}).explain("executionStats")
+{
+  explainVersion: '1',
+  queryPlanner: {
+    namespace: 'Weather.weather_data',
+    indexFilterSet: false,
+    parsedQuery: { elevation: { '$lt': 9000 } },
+    queryHash: '84249930',
+    planCacheKey: '84249930',
+    maxIndexedOrSolutionsReached: false,
+    maxIndexedAndSolutionsReached: false,
+    maxScansToExplodeReached: false,
+    winningPlan: {
+      stage: 'COLLSCAN',
+      filter: { elevation: { '$lt': 9000 } },
+      direction: 'forward'
+    },
+    rejectedPlans: []
+  },
+  executionStats: {
+    executionSuccess: true,
+    nReturned: 6,
+    executionTimeMillis: 5,
+    totalKeysExamined: 0,
+    totalDocsExamined: 9992,
+    executionStages: {
+      stage: 'COLLSCAN',
+      filter: { elevation: { '$lt': 9000 } },
+      nReturned: 6,
+      executionTimeMillisEstimate: 0,
+      works: 9993,
+      advanced: 6,
+      needTime: 9986,
+      needYield: 0,
+      saveState: 9,
+      restoreState: 9,
+      isEOF: 1,
+      direction: 'forward',
+      docsExamined: 9992
+    }
+  },
+  command: {
+    find: 'weather_data',
+    filter: { elevation: { '$lt': 9000 } },
+    '$db': 'Weather'
+  },
+  serverInfo: {
+    host: 'Subhranil',
+    port: 27017,
+    version: '6.0.8',
+    gitVersion: '3d84c0dd4e5d99be0d69003652313e7eaf4cdd74'
+  },
+  serverParameters: {
+    internalQueryFacetBufferSizeBytes: 104857600,
+    internalQueryFacetMaxOutputDocSizeBytes: 104857600,
+    internalLookupStageIntermediateDocumentMaxSizeBytes: 104857600,
+    internalDocumentSourceGroupMaxMemoryBytes: 104857600,
+    internalQueryMaxBlockingSortMemoryUsageBytes: 104857600,
+    internalQueryProhibitBlockingMergeOnMongoS: 0,
+    internalQueryMaxAddToSetBytes: 104857600,
+    internalDocumentSourceSetWindowFieldsMaxMemoryBytes: 104857600
+  },
+  ok: 1
+}
+
+Weather> db.weather_data.createIndex({elevation: 1})
+elevation_1
+
+Weather> db.weather_data.getIndexes()
+[
+  { v: 2, key: { _id: 1 }, name: '_id_' },
+  { v: 2, key: { elevation: 1 }, name: 'elevation_1' }
+]
+
+Weather> db.weather_data.find({elevation: {$lt: 9000}}).explain("executionStats")
+{
+  explainVersion: '1',
+  queryPlanner: {
+    namespace: 'Weather.weather_data',
+    indexFilterSet: false,
+    parsedQuery: { elevation: { '$lt': 9000 } },
+    queryHash: '84249930',
+    planCacheKey: '7B90490C',
+    maxIndexedOrSolutionsReached: false,
+    maxIndexedAndSolutionsReached: false,
+    maxScansToExplodeReached: false,
+    winningPlan: {
+      stage: 'FETCH',
+      inputStage: {
+        stage: 'IXSCAN',
+        keyPattern: { elevation: 1 },
+        indexName: 'elevation_1',
+        isMultiKey: false,
+        multiKeyPaths: { elevation: [] },
+        isUnique: false,
+        isSparse: false,
+        isPartial: false,
+        indexVersion: 2,
+        direction: 'forward',
+        indexBounds: { elevation: [ '[-inf.0, 9000)' ] }
+      }
+    },
+    rejectedPlans: []
+  },
+  executionStats: {
+    executionSuccess: true,
+    nReturned: 6,
+    executionTimeMillis: 26,
+    totalKeysExamined: 6,
+    totalDocsExamined: 6,
+    executionStages: {
+      stage: 'FETCH',
+      nReturned: 6,
+      executionTimeMillisEstimate: 24,
+      works: 7,
+      advanced: 6,
+      needTime: 0,
+      needYield: 0,
+      saveState: 1,
+      restoreState: 1,
+      isEOF: 1,
+      docsExamined: 6,
+      alreadyHasObj: 0,
+      inputStage: {
+        stage: 'IXSCAN',
+        nReturned: 6,
+        executionTimeMillisEstimate: 24,
+        works: 7,
+        advanced: 6,
+        needTime: 0,
+        needYield: 0,
+        saveState: 1,
+        restoreState: 1,
+        isEOF: 1,
+        keyPattern: { elevation: 1 },
+        indexName: 'elevation_1',
+        isMultiKey: false,
+        multiKeyPaths: { elevation: [] },
+        isUnique: false,
+        isSparse: false,
+        isPartial: false,
+        indexVersion: 2,
+        direction: 'forward',
+        indexBounds: { elevation: [ '[-inf.0, 9000)' ] },
+        keysExamined: 6,
+        seeks: 1,
+        dupsTested: 0,
+        dupsDropped: 0
+      }
+    }
+  },
+  command: {
+    find: 'weather_data',
+    filter: { elevation: { '$lt': 9000 } },
+    '$db': 'Weather'
+  },
+  serverInfo: {
+    host: 'Subhranil',
+    port: 27017,
+    version: '6.0.8',
+    gitVersion: '3d84c0dd4e5d99be0d69003652313e7eaf4cdd74'
+  },
+  serverParameters: {
+    internalQueryFacetBufferSizeBytes: 104857600,
+    internalQueryFacetMaxOutputDocSizeBytes: 104857600,
+    internalLookupStageIntermediateDocumentMaxSizeBytes: 104857600,
+    internalDocumentSourceGroupMaxMemoryBytes: 104857600,
+    internalQueryMaxBlockingSortMemoryUsageBytes: 104857600,
+    internalQueryProhibitBlockingMergeOnMongoS: 0,
+    internalQueryMaxAddToSetBytes: 104857600,
+    internalDocumentSourceSetWindowFieldsMaxMemoryBytes: 104857600
+  },
+  ok: 1
+}
+
+Weather> db.weather_data.dropIndex("elevation_1")
+{ nIndexesWas: 2, ok: 1 }
+
+Weather> db.weather_data.getIndexes()
+[ { v: 2, key: { _id: 1 }, name: '_id_' } ]

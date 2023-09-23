@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="../assets/css/signup_login.css" />
+        <title>Login</title>
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap"
+            rel="stylesheet"
+        />
+    </head>
+    <body>
+        <div class="main">
+            <form action="/login" method="post">
+                <a href="/"><h1>Instagram Login</h1></a>
+                <div class="form-main">
+                    <label for="username">Username</label>
+                    <input
+                        type="text"
+                        name="username"
+                        id="username"
+                        placeholder="Enter your Username"
+                        required
+                    />
+                    <label for="password">Password</label>
+                    <input
+                        type="password"
+                        name="password"
+                        id="password"
+                        placeholder="Enter your Password"
+                        required
+                    />
+                </div>
+                <button type="submit" value="submit">Log In</button>
+                <div class="forgotpasswordlogin">
+                    <a href="#"><p>Forgot Password?</p></a
+                    ><a href="/signup"><p>Sign Up</p></a>
+                </div>
+            </form>
+        </div>
+    </body>
+</html>

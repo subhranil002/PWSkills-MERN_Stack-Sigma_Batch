@@ -88,6 +88,7 @@ const register = async (req, res, next) => {
         return next(new AppError(error.message, 500));
     }
 };
+
 const login = async (req, res, next) => {
     try {
         const { email, password } = req.body;
@@ -117,6 +118,7 @@ const login = async (req, res, next) => {
         return next(new AppError(error.message, 500));
     }
 };
+
 const logout = (req, res) => {
     try {
         res.cookie("token", null, {
@@ -133,6 +135,7 @@ const logout = (req, res) => {
         return next(new AppError(error.message, 500));
     }
 };
+
 const getProfile = async (req, res, next) => {
     try {
         const userId = req.user.id;

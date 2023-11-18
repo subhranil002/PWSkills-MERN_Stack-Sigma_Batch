@@ -11,6 +11,7 @@ import connectionToDb from "../config/dbConnection.js";
 connectionToDb();
 import connectToCloudinary from "../config/cloudinaryConnection.js";
 connectToCloudinary();
+import courseRoutes from "../routes/course.routes.js";
 
 app.use(express.json());
 
@@ -31,6 +32,7 @@ app.use("/ping", (req, res) => {
 });
 
 app.use("/api/v1/user", userRoutes);
+app.use("/api/v1/courses", courseRoutes);
 app.use(errorMiddleWare);
 
 app.all("*", (req, res) => {

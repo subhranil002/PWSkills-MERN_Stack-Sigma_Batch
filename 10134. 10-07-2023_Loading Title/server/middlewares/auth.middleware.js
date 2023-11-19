@@ -23,4 +23,14 @@ const isLoggedIn = async (req, res, next) => {
     }
 };
 
-export default isLoggedIn;
+const authorizedRoles = (...roles) => async (req, res, next) => {
+    const currentUserRole = await req.user.role;
+
+    if (!roles.includes(currentUserRole)) {
+        return next(new AppError("Unauthorized!", 400));
+    }
+
+    next();
+};
+
+export { isLoggedIn, authorizedRoles };

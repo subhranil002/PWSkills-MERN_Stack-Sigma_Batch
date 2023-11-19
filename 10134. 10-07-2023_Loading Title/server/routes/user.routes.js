@@ -10,7 +10,7 @@ import {
     changePassword,
     updateUser,
 } from "../controllers/user.controller.js";
-import isLoggedIn from "../middlewares/auth.middleware.js";
+import { isLoggedIn } from "../middlewares/auth.middleware.js";
 import upload from "../middlewares/multer.middleware.js";
 
 userRoutes.post("/register", upload.single("avatar"), register);
@@ -20,6 +20,6 @@ userRoutes.get("/me", isLoggedIn, getProfile);
 userRoutes.post("/forgot-password", forgotPassword);
 userRoutes.post("/reset-password/:resetToken", resetPassword);
 userRoutes.post("/change-password", isLoggedIn, changePassword);
-userRoutes.put("/update",isLoggedIn, upload.single("avatar"), updateUser);
+userRoutes.put("/update", isLoggedIn, upload.single("avatar"), updateUser);
 
 export default userRoutes;

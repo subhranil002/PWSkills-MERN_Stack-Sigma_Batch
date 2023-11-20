@@ -32,7 +32,7 @@ const register = async (req, res, next) => {
             avtar: {
                 public_id: email,
                 secure_url:
-                    "https://res.cloudinary.com/du9jzqlpt/image/upload/v1674647316/avatar_drzgxv.jpg",
+                    "https://res.cloudinary.com/dznnpy9yz/image/upload/v1700418495/lms/rrqlbctqrxtnlahelqfc.jpg",
             },
         });
 
@@ -52,6 +52,7 @@ const register = async (req, res, next) => {
                         height: 250,
                         gravity: "faces",
                         crop: "fill",
+                        resource_type: "image",
                     }
                 );
 
@@ -282,6 +283,7 @@ const updateUser = async (req, res, next) => {
                         height: 250,
                         gravity: "faces",
                         crop: "fill",
+                        resource_type: "image",
                     }
                 );
 

@@ -227,21 +227,6 @@ const createLecture = async (req, res, next) => {
             );
         }
 
-        const existSameTitle = Course.find({
-            lectures: {
-                title,
-            },
-        });
-
-        if (existSameTitle) {
-            return next(
-                new AppError(
-                    "Lecture with same title already exists, please use different title",
-                    400
-                )
-            );
-        }
-
         const lectureData = {
             title,
             description,
@@ -265,6 +250,7 @@ const createLecture = async (req, res, next) => {
                     fs.rm(`uploads/${req.file.filename}`);
                 }
             } catch (error) {
+                fs.rm(`uploads/${req.file.filename}`);
                 return next(
                     new AppError(
                         error.message || "File not uploaded, please try again",
@@ -285,6 +271,9 @@ const createLecture = async (req, res, next) => {
             course,
         });
     } catch (error) {
+        if (req.file) {
+            fs.rm(`uploads/${req.file.filename}`);
+        }
         return next(new AppError(error.message, 500));
     }
 };
@@ -317,16 +306,151 @@ const viewLecture = async (req, res, next) => {
         res.status(200).json({
             success: true,
             message: "Lecture fetched successfully",
-            "lecture":lecture.lectures,
+            lecture: lecture.lectures[0],
         });
     } catch (error) {
         return next(new AppError(error.message, 500));
     }
 };
 
-const updateLecture = async (req, res, next) => {};
+const updateLecture = async (req, res, next) => {
+    try {
+        const { courseid, lectureid } = req.params;
 
-const deleteLecture = async (req, res, next) => {};
+        const course = await Course.findById(courseid);
+
+        if (!course) {
+            return next(new AppError("Course not found", 400));
+        }
+
+        const lecture = await Course.findOne(
+            {
+                _id: courseid,
+                "lectures._id": lectureid,
+            },
+            {
+                _id: 0,
+                "lectures.$": 1,
+            }
+        );
+
+        if (!lecture) {
+            return next(new AppError("Lecture not found", 400));
+        }
+
+        const { title, description } = req.body;
+
+        const updateFields = {};
+
+        if (title) {
+            updateFields["lectures.$.title"] = title;
+        }
+
+        if (description) {
+            updateFields["lectures.$.description"] = description;
+        }
+
+        if (req.file) {
+            try {
+                const public_id = lecture.lectures[0].lecture.public_id;
+
+                await cloudinary.v2.uploader.destroy(public_id);
+
+                const result = await cloudinary.v2.uploader.upload(
+                    req.file.path,
+                    {
+                        folder: "lms",
+                        resource_type: "video",
+                    }
+                );
+
+                if (result) {
+                    updateFields["lectures.$.lecture.public_id"] =
+                        result.public_id;
+                    updateFields["lectures.$.lecture.secure_url"] =
+                        result.secure_url;
+
+                    fs.rm(`uploads/${req.file.filename}`);
+                }
+            } catch (error) {
+                fs.rm(`uploads/${req.file.filename}`);
+                return next(
+                    new AppError(
+                        error.message || "File not uploaded, please try again",
+                        400
+                    )
+                );
+            }
+        }
+
+        await Course.updateOne(
+            {
+                _id: courseid,
+                "lectures._id": lectureid,
+            },
+            {
+                $set: updateFields,
+            }
+        );
+
+        res.status(200).json({
+            success: true,
+            message: "Lecture updated successfully",
+        });
+    } catch (error) {
+        if (req.file) {
+            fs.rm(`uploads/${req.file.filename}`);
+        }
+        return next(new AppError(error.message, 500));
+    }
+};
+
+const deleteLecture = async (req, res, next) => {
+    try {
+        const { courseid, lectureid } = req.params;
+
+        const course = await Course.findById(courseid);
+
+        if (!course) {
+            return next(new AppError("Course not found", 400));
+        }
+
+        const lecture = await Course.findOne(
+            {
+                _id: courseid,
+                "lectures._id": lectureid,
+            },
+            {
+                _id: 0,
+                "lectures.$": 1,
+            }
+        );
+
+        if (!lecture) {
+            return next(new AppError("Lecture not found", 400));
+        }
+
+        const public_id = lecture.lectures[0].lecture.public_id;
+
+        await cloudinary.v2.uploader.destroy(public_id);
+
+        await Course.updateOne(
+            { _id: courseid },
+            { $pull: { lectures: { _id: lectureid } } }
+        );
+
+        course.numbersOfLectures = course.lectures.length;
+
+        await course.save();
+
+        res.status(200).json({
+            success: true,
+            message: "Lecture deleted successfully",
+        });
+    } catch (error) {
+        return next(new AppError(error.message, 500));
+    }
+};
 
 export {
     getAllCourses,

@@ -11,11 +11,20 @@ import {
     updateLecture,
     viewLecture,
 } from "../controllers/course.controller.js";
-import { isLoggedIn, authorizedRoles } from "../middlewares/auth.middleware.js";
+import {
+    isLoggedIn,
+    authorizedRoles,
+    authorizedSubscriber,
+} from "../middlewares/auth.middleware.js";
 import upload from "../middlewares/multer.middleware.js";
 
 courseRoutes.get("/", getAllCourses);
-courseRoutes.get("/:id", isLoggedIn, getLecturesByCourseId);
+courseRoutes.get(
+    "/:id",
+    isLoggedIn,
+    authorizedSubscriber,
+    getLecturesByCourseId
+);
 courseRoutes.post(
     "/create-course",
     isLoggedIn,
@@ -45,7 +54,12 @@ courseRoutes.post(
     createLecture
 );
 
-courseRoutes.get("/:courseid/view-lecture/:lectureid", isLoggedIn, viewLecture);
+courseRoutes.get(
+    "/:courseid/view-lecture/:lectureid",
+    isLoggedIn,
+    authorizedSubscriber,
+    viewLecture
+);
 
 courseRoutes.put(
     "/:courseid/update-lecture/:lectureid",
@@ -56,7 +70,7 @@ courseRoutes.put(
 );
 
 courseRoutes.delete(
-    "/:id/delete-lecture",
+    "/:courseid/delete-lecture/:lectureid",
     isLoggedIn,
     authorizedRoles("ADMIN"),
     deleteLecture

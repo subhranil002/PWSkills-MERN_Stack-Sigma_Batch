@@ -176,11 +176,11 @@
 ## 04-03-2023_JavaScript(Assignment 1)
 [Codes](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/B.%20README(Codes).md#04-03-2023_javascriptassignment-1)
 
-## 05-03-2023_JavaScript(Assignment 2.1)
-[Codes](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/B.%20README(Codes).md#05-03-2023_javascriptassignment-21)
+## 05-03-2023_Milestone-Exam-1.1
+[Codes](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/B.%20README(Codes).md#05-03-2023_milestone-exam-11)
 
-## 06-03-2023_JavaScript(Assignment 2.2)
-[Codes](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/B.%20README(Codes).md#06-03-2023_javascriptassignment-22)
+## 06-03-2023_Milestone-Exam-1.2
+[Codes](https://github.com/subhranil002/PWSkills-MERN_Stack-Sigma_Batch/blob/main/B.%20README(Codes).md#06-03-2023_milestone-exam-12)
 
 
 

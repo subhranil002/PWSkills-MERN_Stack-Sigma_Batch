@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DynamicallyAddingItems</title>
+</head>
+<body>
+    
+    <div>
+        <button onclick="addData()">Show More Items</button>
+        <div>
+            <ol id="list">
+                <li>HTML and Semantics</li>
+            </ol>
+        </div>
+        <p id="response"></p>
+    </div>
+
+
+    <script>
+
+        let arr = [
+            "Starting with CSS",
+            "Working Template",
+            "Mobile responsive webpages",
+            "Grid and Flex-box in CSS",
+            "Projects using HTML & CSS",
+            "Version Control and Git",
+            "Getting Started with JavaScript",
+            "Advance JavaScript",
+            "Working with DOM",
+            "Making Projects using HTML, CSS and JavaScript",
+            "Understanding Fundamental of Computer Science",
+            "Getting Started with Database",
+            "Understanding the Database",
+            "Starting with NodeJS and Express",
+            "Understanding React and its Fundamentals",
+            "Understanding Hooks and Routers",
+            "Starting and Completing Full Fledge Projects"
+        ];
+
+        let i = 0;
+
+        let addData = () => {
+            if ( i < 17) {
+                let list = document.querySelector("#list");
+                const newElement = document.createElement("li");
+                newElement.innerHTML = arr[i];
+                list.appendChild(newElement);
+                i++;
+            }
+            else document.querySelector("#response").innerHTML = "All items have been added";
+        };
+
+    </script>
+
+</body>
+</html>

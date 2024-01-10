@@ -17,240 +17,18 @@
             <nav class="flex justify-between items-center w-[95%] h-20">
                 <h1 class="text-4xl font-semibold">PWSkills Blog</h1>
                 <button class="text-2xl">
-                    <i class="fa-solid fa-plus"></i>
+                    <span
+                        ><i onclick="togglePopup()" class="fa-solid fa-plus"></i
+                    ></span>
+                    <span class="hidden"
+                        ><i
+                            onclick="closeBlog()"
+                            class="fa-solid fa-arrow-left"
+                        ></i
+                    ></span>
                 </button>
             </nav>
-            <div id="blogs" class="flex flex-wrap gap-3 w-[95%]">
-                <div
-                    class="w-[250px] border-2 border-black rounded-lg flex flex-col justify-between items-center py-5 gap-3"
-                >
-                    <img
-                        class="rounded-lg w-[200px] h-[200px] object-cover"
-                        src="https://buffer.com/cdn-cgi/image/w=1000,fit=contain,q=90,f=auto/library/content/images/size/w1200/2023/10/free-images.jpg"
-                        alt="image"
-                    />
-                    <div class="w-[200px] flex flex-col gap-3">
-                        <h1 class="font-semibold text-base">
-                            Lorem ipsum dolor sit amet, consectetur
-                        </h1>
-                        <p class="text-sm text-gray-900">
-                            Lorem ipsum dolor, sit amet consectetur adipisicing
-                            elit
-                        </p>
-                    </div>
-                    <button
-                        class="w-[200px] bg-red-100 py-1 text-red-400 rounded-md"
-                    >
-                        Read
-                    </button>
-                </div>
-                <div
-                    class="w-[250px] border-2 border-black rounded-lg flex flex-col justify-between items-center py-5 gap-3"
-                >
-                    <img
-                        class="rounded-lg w-[200px] h-[200px] object-cover"
-                        src="https://buffer.com/cdn-cgi/image/w=1000,fit=contain,q=90,f=auto/library/content/images/size/w1200/2023/10/free-images.jpg"
-                        alt="image"
-                    />
-                    <div class="w-[200px] flex flex-col gap-3">
-                        <h1 class="font-semibold text-base">
-                            Lorem ipsum dolor sit amet, consectetur
-                        </h1>
-                        <p class="text-sm text-gray-900">
-                            Lorem ipsum dolor, sit amet consectetur adipisicing
-                            elit
-                        </p>
-                    </div>
-                    <button
-                        class="w-[200px] bg-red-100 py-1 text-red-400 rounded-md"
-                    >
-                        Read
-                    </button>
-                </div>
-                <div
-                    class="w-[250px] border-2 border-black rounded-lg flex flex-col justify-between items-center py-5 gap-3"
-                >
-                    <img
-                        class="rounded-lg w-[200px] h-[200px] object-cover"
-                        src="https://buffer.com/cdn-cgi/image/w=1000,fit=contain,q=90,f=auto/library/content/images/size/w1200/2023/10/free-images.jpg"
-                        alt="image"
-                    />
-                    <div class="w-[200px] flex flex-col gap-3">
-                        <h1 class="font-semibold text-base">
-                            Lorem ipsum dolor sit amet, consectetur
-                        </h1>
-                        <p class="text-sm text-gray-900">
-                            Lorem ipsum dolor, sit amet consectetur adipisicing
-                            elit
-                        </p>
-                    </div>
-                    <button
-                        class="w-[200px] bg-red-100 py-1 text-red-400 rounded-md"
-                    >
-                        Read
-                    </button>
-                </div>
-                <div
-                    class="w-[250px] border-2 border-black rounded-lg flex flex-col justify-between items-center py-5 gap-3"
-                >
-                    <img
-                        class="rounded-lg w-[200px] h-[200px] object-cover"
-                        src="https://buffer.com/cdn-cgi/image/w=1000,fit=contain,q=90,f=auto/library/content/images/size/w1200/2023/10/free-images.jpg"
-                        alt="image"
-                    />
-                    <div class="w-[200px] flex flex-col gap-3">
-                        <h1 class="font-semibold text-base">
-                            Lorem ipsum dolor sit amet, consectetur
-                        </h1>
-                        <p class="text-sm text-gray-900">
-                            Lorem ipsum dolor, sit amet consectetur adipisicing
-                            elit
-                        </p>
-                    </div>
-                    <button
-                        class="w-[200px] bg-red-100 py-1 text-red-400 rounded-md"
-                    >
-                        Read
-                    </button>
-                </div>
-                <div
-                    class="w-[250px] border-2 border-black rounded-lg flex flex-col justify-between items-center py-5 gap-3"
-                >
-                    <img
-                        class="rounded-lg w-[200px] h-[200px] object-cover"
-                        src="https://buffer.com/cdn-cgi/image/w=1000,fit=contain,q=90,f=auto/library/content/images/size/w1200/2023/10/free-images.jpg"
-                        alt="image"
-                    />
-                    <div class="w-[200px] flex flex-col gap-3">
-                        <h1 class="font-semibold text-base">
-                            Lorem ipsum dolor sit amet, consectetur
-                        </h1>
-                        <p class="text-sm text-gray-900">
-                            Lorem ipsum dolor, sit amet consectetur adipisicing
-                            elit
-                        </p>
-                    </div>
-                    <button
-                        class="w-[200px] bg-red-100 py-1 text-red-400 rounded-md"
-                    >
-                        Read
-                    </button>
-                </div>
-                <div
-                    class="w-[250px] border-2 border-black rounded-lg flex flex-col justify-between items-center py-5 gap-3"
-                >
-                    <img
-                        class="rounded-lg w-[200px] h-[200px] object-cover"
-                        src="https://buffer.com/cdn-cgi/image/w=1000,fit=contain,q=90,f=auto/library/content/images/size/w1200/2023/10/free-images.jpg"
-                        alt="image"
-                    />
-                    <div class="w-[200px] flex flex-col gap-3">
-                        <h1 class="font-semibold text-base">
-                            Lorem ipsum dolor sit amet, consectetur
-                        </h1>
-                        <p class="text-sm text-gray-900">
-                            Lorem ipsum dolor, sit amet consectetur adipisicing
-                            elit
-                        </p>
-                    </div>
-                    <button
-                        class="w-[200px] bg-red-100 py-1 text-red-400 rounded-md"
-                    >
-                        Read
-                    </button>
-                </div>
-                <div
-                    class="w-[250px] border-2 border-black rounded-lg flex flex-col justify-between items-center py-5 gap-3"
-                >
-                    <img
-                        class="rounded-lg w-[200px] h-[200px] object-cover"
-                        src="https://buffer.com/cdn-cgi/image/w=1000,fit=contain,q=90,f=auto/library/content/images/size/w1200/2023/10/free-images.jpg"
-                        alt="image"
-                    />
-                    <div class="w-[200px] flex flex-col gap-3">
-                        <h1 class="font-semibold text-base">
-                            Lorem ipsum dolor sit amet, consectetur
-                        </h1>
-                        <p class="text-sm text-gray-900">
-                            Lorem ipsum dolor, sit amet consectetur adipisicing
-                            elit
-                        </p>
-                    </div>
-                    <button
-                        class="w-[200px] bg-red-100 py-1 text-red-400 rounded-md"
-                    >
-                        Read
-                    </button>
-                </div>
-                <div
-                    class="w-[250px] border-2 border-black rounded-lg flex flex-col justify-between items-center py-5 gap-3"
-                >
-                    <img
-                        class="rounded-lg w-[200px] h-[200px] object-cover"
-                        src="https://buffer.com/cdn-cgi/image/w=1000,fit=contain,q=90,f=auto/library/content/images/size/w1200/2023/10/free-images.jpg"
-                        alt="image"
-                    />
-                    <div class="w-[200px] flex flex-col gap-3">
-                        <h1 class="font-semibold text-base">
-                            Lorem ipsum dolor sit amet, consectetur
-                        </h1>
-                        <p class="text-sm text-gray-900">
-                            Lorem ipsum dolor, sit amet consectetur adipisicing
-                            elit
-                        </p>
-                    </div>
-                    <button
-                        class="w-[200px] bg-red-100 py-1 text-red-400 rounded-md"
-                    >
-                        Read
-                    </button>
-                </div>
-                <div
-                    class="w-[250px] border-2 border-black rounded-lg flex flex-col justify-between items-center py-5 gap-3"
-                >
-                    <img
-                        class="rounded-lg w-[200px] h-[200px] object-cover"
-                        src="https://buffer.com/cdn-cgi/image/w=1000,fit=contain,q=90,f=auto/library/content/images/size/w1200/2023/10/free-images.jpg"
-                        alt="image"
-                    />
-                    <div class="w-[200px] flex flex-col gap-3">
-                        <h1 class="font-semibold text-base">
-                            Lorem ipsum dolor sit amet, consectetur
-                        </h1>
-                        <p class="text-sm text-gray-900">
-                            Lorem ipsum dolor, sit amet consectetur adipisicing
-                            elit
-                        </p>
-                    </div>
-                    <button
-                        class="w-[200px] bg-red-100 py-1 text-red-400 rounded-md"
-                    >
-                        Read
-                    </button>
-                </div>
-                <div
-                    class="w-[250px] border-2 border-black rounded-lg flex flex-col justify-between items-center py-5 gap-3"
-                >
-                    <img
-                        class="rounded-lg w-[200px] h-[200px] object-cover"
-                        src="https://buffer.com/cdn-cgi/image/w=1000,fit=contain,q=90,f=auto/library/content/images/size/w1200/2023/10/free-images.jpg"
-                        alt="image"
-                    />
-                    <div class="w-[200px] flex flex-col gap-3">
-                        <h1 class="font-semibold text-base">
-                            Lorem ipsum dolor sit amet, consectetur
-                        </h1>
-                        <p class="text-sm text-gray-900">
-                            Lorem ipsum dolor, sit amet consectetur adipisicing
-                            elit
-                        </p>
-                    </div>
-                    <button
-                        class="w-[200px] bg-red-100 py-1 text-red-400 rounded-md"
-                    >
-                        Read
-                    </button>
-                </div>
+            <div id="blogs" class="flex flex-wrap gap-5 w-[88%]">
                 <div
                     class="w-[250px] border-2 border-black rounded-lg flex flex-col justify-between items-center py-5 gap-3"
                 >
@@ -275,34 +53,71 @@
                     </button>
                 </div>
             </div>
+            <div
+                id="blogContainer"
+                class="w-[95%] rounded-lg shadow-[0_1px_3px_2px_rgba(0,0,0,0.3)] hidden justify-between items-center flex-col gap-10"
+            >
+                <div
+                    class="flex justify-between items-center w-[95%] bg-[#6f11f5] rounded-lg mt-8 h-[35vh] text-white p-2"
+                >
+                    <div class="flex flex-col justify-center gap-8">
+                        <h1 class="font-bold text-2xl"></h1>
+                        <h3 class="text-md max-w-lg"></h3>
+                    </div>
+                    <div>
+                        <img
+                            class="rounded-lg w-[350px] h-[250px] object-cover border-2 border-white"
+                            src=""
+                            alt="image"
+                        />
+                    </div>
+                </div>
+                <div class="w-[93%]">
+                    <pre
+                        class="text-left whitespace-pre-wrap font-[poppins]"
+                    ></pre>
+                </div>
+            </div>
         </main>
         <div
-            class="border-2 border-black w-[30%] h-[60vh] absolute top-[20%] left-[35%] bg-[#f4f6fe] rounded-2xl flex flex-col justify-between items-center p-3"
+            id="overlay"
+            class="fixed top-0 left-0 w-full h-full bg-black opacity-50 z-10 hidden"
+        ></div>
+        <div
+            id="popup"
+            class="w-[30%] h-[60vh] absolute top-[20%] left-[35%] bg-[#f4f6fe] rounded-2xl hidden flex-col justify-between items-center p-3 shadow-lg z-20"
         >
-            <button class="absolute right-10 top-3">
+            <button onclick="togglePopup()" class="absolute right-10 top-3">
                 <i class="fa-solid fa-xmark"></i>
             </button>
-            <div class="flex flex-col justify-between items-center w-[86%] gap-4 mt-7">
+            <div
+                class="flex flex-col justify-between items-center w-[86%] gap-4 mt-7"
+            >
                 <input
                     class="w-[100%] p-2 border-2 border-[#e1e0e1] placeholder:text-sm font-medium hover:border-[#6f11f5] focus:outline-none focus:border-[#6f11f5]"
                     type="text"
                     placeholder="Enter Blog Post URL :"
                 />
                 <input
-                    class="w-[100%] p-2 border-2 border-[#e1e0e1] placeholder:text-sm font-medium hover:border-[#6f11f5] focus:ring "
+                    class="w-[100%] p-2 border-2 border-[#e1e0e1] placeholder:text-sm font-medium hover:border-[#6f11f5] focus:outline-none focus:border-[#6f11f5]"
                     type="text"
                     placeholder="Enter Blog Title :"
                 />
                 <input
-                    class="w-[100%] p-2 border-2 border-[#e1e0e1] placeholder:text-sm font-medium hover:border-[#6f11f5] focus:ring "
+                    class="w-[100%] p-2 border-2 border-[#e1e0e1] placeholder:text-sm font-medium hover:border-[#6f11f5] focus:outline-none focus:border-[#6f11f5]"
                     type="text"
                     placeholder="Enter Blog Description :"
                 />
                 <textarea
-                    class="resize-none p-1"
+                    class="resize-none w-[100%] h-[150px] p-2 border-2 border-[#e1e0e1] placeholder:text-sm font-medium hover:border-[#6f11f5] focus:outline-none focus:border-[#6f11f5]"
                     placeholder="Write.."
                 ></textarea>
-                <button>Add Blog</button>
+                <button
+                    onclick="createNewBlog()"
+                    class="w-[100%] p-2 bg-[#6f11f5] rounded-xl text-white text-sm"
+                >
+                    Add Blog
+                </button>
             </div>
         </div>
         <script src="./script.js"></script>

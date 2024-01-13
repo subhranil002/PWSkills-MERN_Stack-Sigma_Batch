@@ -30,7 +30,7 @@
             </nav>
             <div id="blogs" class="flex flex-wrap gap-5 w-[88%]">
                 <div
-                    class="w-[250px] shadow-[0_1px_3px_2px_rgba(0,0,0,0.3)] rounded-lg flex flex-col justify-between items-center py-5 gap-3"
+                    class="w-[250px] shadow-[0_1px_3px_2px_rgba(0,0,0,0.3)] rounded-lg flex flex-col justify-between items-center py-5 gap-3 overflow-hidden"
                 >
                     <img
                         class="rounded-lg w-[200px] h-[200px] object-cover"
@@ -39,7 +39,7 @@
                     />
                     <div class="w-[200px] flex flex-col gap-3">
                         <h1 class="font-semibold text-base">
-                            Lorem ipsum dolor sit amet, consectetur
+                            Lorem ipsum dolor sit amet
                         </h1>
                         <p class="text-sm text-gray-900">
                             Lorem ipsum dolor, sit amet consectetur adipisicing
@@ -79,7 +79,7 @@
                 </div>
             </div>
         </main>
-        <div
+        <div 
             id="overlay"
             class="fixed top-0 left-0 w-full h-full bg-black opacity-50 z-10 hidden"
         ></div>
@@ -90,27 +90,35 @@
             <button onclick="togglePopup()" class="absolute right-10 top-3">
                 <i class="fa-solid fa-xmark"></i>
             </button>
-            <div
+            <form
                 class="flex flex-col justify-between items-center w-[86%] gap-4 mt-7"
             >
                 <input
                     class="w-[100%] p-2 border-2 border-[#e1e0e1] placeholder:text-sm font-medium hover:border-[#6f11f5] focus:outline-none focus:border-[#6f11f5]"
+                    id="imageUrl"
                     type="text"
-                    placeholder="Enter Blog Post URL :"
+                    placeholder="Enter Blog Image URL :"
+                    required
                 />
                 <input
                     class="w-[100%] p-2 border-2 border-[#e1e0e1] placeholder:text-sm font-medium hover:border-[#6f11f5] focus:outline-none focus:border-[#6f11f5]"
+                    id="title"
                     type="text"
                     placeholder="Enter Blog Title :"
+                    required
                 />
                 <input
                     class="w-[100%] p-2 border-2 border-[#e1e0e1] placeholder:text-sm font-medium hover:border-[#6f11f5] focus:outline-none focus:border-[#6f11f5]"
+                    id="description"
                     type="text"
                     placeholder="Enter Blog Description :"
+                    required
                 />
                 <textarea
                     class="resize-none w-[100%] h-[150px] p-2 border-2 border-[#e1e0e1] placeholder:text-sm font-medium hover:border-[#6f11f5] focus:outline-none focus:border-[#6f11f5]"
+                    id="readContent"
                     placeholder="Write.."
+                    required
                 ></textarea>
                 <button
                     onclick="createNewBlog()"
@@ -118,7 +126,7 @@
                 >
                     Add Blog
                 </button>
-            </div>
+            </form>
         </div>
         <script src="./script.js"></script>
         <script

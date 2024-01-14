@@ -626,6 +626,14 @@ video {
   margin-top: 2rem;
 }
 
+.mb-3 {
+  margin-bottom: 0.75rem;
+}
+
+.mb-8 {
+  margin-bottom: 2rem;
+}
+
 .block {
   display: block;
 }
@@ -663,6 +671,10 @@ video {
 }
 
 .h-full {
+  height: 100%;
+}
+
+.h-\[100\%\] {
   height: 100%;
 }
 
@@ -704,6 +716,10 @@ video {
 
 .w-full {
   width: 100%;
+}
+
+.w-\[100\] {
+  width: 100;
 }
 
 .max-w-lg {
@@ -764,18 +780,6 @@ video {
 
 .whitespace-pre-wrap {
   white-space: pre-wrap;
-}
-
-.text-wrap {
-  text-wrap: wrap;
-}
-
-.text-pretty {
-  text-wrap: pretty;
-}
-
-.break-all {
-  word-break: break-all;
 }
 
 .rounded-2xl {
@@ -849,6 +853,10 @@ video {
 .py-5 {
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
+}
+
+.pb-8 {
+  padding-bottom: 2rem;
 }
 
 .text-left {

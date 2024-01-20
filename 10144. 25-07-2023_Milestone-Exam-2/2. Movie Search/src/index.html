@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Movie Search</title>
+        <link rel="stylesheet" href="./style.css" />
+    </head>
+    <body class="flex flex-col items-center justify-center bg-[#0d0529]">
+        <h1 class="text-5xl font-serif my-5 text-white">Movie List</h1>
+        <input
+            class="w-[40%] py-2 px-2 rounded-sm"
+            type="text"
+            id="search"
+            placeholder="Enter Movie Title Here"
+            oninput="searchMovie()"
+        />
+        <div
+            id="movies"
+            class="flex flex-wrap justify-center gap-5 w-[99%] mt-5"
+        >
+            <!-- Searched Movies -->
+        </div>
+        <h1 class="text-white" id="starter">Movie not found!</h1>
+        <script src="./script.js"></script>
+    </body>
+</html>

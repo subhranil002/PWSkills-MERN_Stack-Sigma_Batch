@@ -41,7 +41,7 @@ async function searchMovie() {
         document.getElementById("starter").textContent = "Movie not found!";
     } else {
         const response = await fetch(
-            `https://omdbapi.com/?apikey=73bd4051&s=${search}`
+            `https://omdbapi.com/?apikey=[your-apiKey]&s=${search}`
         );
         const movieList = await response.json();
 

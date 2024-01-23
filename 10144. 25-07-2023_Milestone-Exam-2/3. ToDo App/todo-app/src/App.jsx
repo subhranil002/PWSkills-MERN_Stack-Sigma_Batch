@@ -6,20 +6,22 @@ function App() {
         allToDos: [],
     });
 
-    const handleSubmit = (event) => {
-        event.preventDefault();
-    };
-
     function addToDo(event) {
+        event.preventDefault();
+
         const id = Math.random();
-        const message = event.target.elements.message.value
-        console.log(message);
+        const message = event.target.message.value;
 
         setToDo((prevData) => ({
             allToDos: [...prevData.allToDos, { id: id, message: message }],
         }));
-        event.preventDefault();
     }
+
+    const removeToDo = (index) => {
+        setToDo({
+            allToDos: todos.allToDos.filter((_, i) => i !== index),
+        });
+    };
 
     return (
         <main className="bg-[#4f1862] w-[100vw] min-h-screen pb-10 flex flex-col items-center gap-7">
@@ -49,6 +51,7 @@ function App() {
                         key={todo.id}
                         index={index + 1}
                         message={todo.message}
+                        removeToDo={() => removeToDo(index)}
                     />
                 ))}
             </div>

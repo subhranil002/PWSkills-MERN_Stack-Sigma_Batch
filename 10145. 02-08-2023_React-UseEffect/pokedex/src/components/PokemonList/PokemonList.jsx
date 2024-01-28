@@ -47,24 +47,27 @@ function PokemonList() {
                 {isLoading
                     ? "Loading..."
                     : pokemonList.map((p) => (
-                          <Pokemon name={p.name} image={p.image} key={p.id} />
+                          <Pokemon
+                              name={p.name}
+                              image={p.image}
+                              key={p.id}
+                              id={p.id}
+                          />
                       ))}
             </div>
-            {isLoading ? (
-                ""
-            ) : (
+            {isLoading ? null : (
                 <div className="flex gap-3">
                     <button
                         disabled={previousUrl == null}
                         onClick={() => setPokeapiUrl(previousUrl)}
-                        className="p-2 bg-green-600 rounded-lg text-white"
+                        className="p-2 bg-green-600 rounded-lg text-white font-bold"
                     >
                         Prev
                     </button>
                     <button
                         disabled={nextUrl == null}
                         onClick={() => setPokeapiUrl(nextUrl)}
-                        className="p-2 bg-orange-600 rounded-lg text-white"
+                        className="p-2 bg-orange-600 rounded-lg text-white font-bold"
                     >
                         Next
                     </button>

@@ -42,8 +42,7 @@ function PokemonList() {
 
     return (
         <div className="flex flex-col items-center justify-center gap-12 w-full">
-            <h1>PokemonList</h1>
-            <div className="flex flex-wrap gap-32 items-center justify-between w-[90%]">
+            <div className="flex flex-wrap gap-32 items-center justify-between w-[90%] mt-10">
                 {isLoading
                     ? "Loading..."
                     : pokemonList.map((p) => (

@@ -1,6 +1,6 @@
 import axios from "axios";
 import React, { useEffect, useState } from "react";
-import { useParams } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 
 function PokemonDetails() {
     const { id } = useParams();
@@ -36,16 +36,34 @@ function PokemonDetails() {
             {isLoading ? (
                 "Loading..."
             ) : (
-                <>
-                    <div>Name: {pokemon.name}</div>
-                    <img src={pokemon.image} alt="DP" />
-                    <div>Weight: {pokemon.weight}</div>
-                    <div>Height: {pokemon.height}</div>
-                    <div>
-                        {pokemon.types.map((t) => <div key={t}>{t}</div>)
-                        }
+                <div className="flex flex-col gap-5">
+                    <img
+                        className="h-[400px] w-[400px]"
+                        src={pokemon.image}
+                        alt="DP"
+                    />
+                    <div className="flex flex-col gap-2">
+                        <div className="text-2xl font-bold font-mono tracking-widest">
+                            Name: {pokemon.name}
+                        </div>
+                        <div className="text-2xl font-bold font-mono tracking-widest">
+                            Weight: {pokemon.weight}
+                        </div>
+                        <div className="text-2xl font-bold font-mono tracking-widest">
+                            Height: {pokemon.height}
+                        </div>
+                        <div className="text-xl flex gap-5">
+                            {pokemon.types.map((t) => (
+                                <div
+                                    className="bg-gray-200 pt-2 pb-3 px-4 rounded-lg font-semibold"
+                                    key={t}
+                                >
+                                    {t}
+                                </div>
+                            ))}
+                        </div>
                     </div>
-                </>
+                </div>
             )}
         </div>
     );

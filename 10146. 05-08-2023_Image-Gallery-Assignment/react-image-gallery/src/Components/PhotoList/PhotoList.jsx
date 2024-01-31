@@ -4,17 +4,18 @@ import axios from "axios";
 
 function PhotoList() {
     const [offset, setOffset] = useState(0);
-    const [limit, setLimit] = useState(20);
 
     const [apiUrl, setApiUrl] = useState(
-        `https://api.slingacademy.com/v1/sample-data/photos?offset=${offset}&limit=${limit}`
+        `https://api.slingacademy.com/v1/sample-data/photos?offset=${offset}&limit=20`
     );
     const [isLoading, setIsLoading] = useState(true);
     const [photoList, setPhotolist] = useState([]);
+    const [totalPhotos, setTotalPhotos] = useState(0);
 
     const downloadPhotos = useCallback(async () => {
         try {
             const response = await axios.get(apiUrl);
+            setTotalPhotos(response.data.total_photos);
             const result = response.data.photos.map((photo) => ({
                 id: photo.id,
                 imageUrl: photo.url,
@@ -24,7 +25,7 @@ function PhotoList() {
         } catch (error) {
             console.log("Error:", error);
         }
-    }, [offset, limit, apiUrl, isLoading, photoList]);
+    }, [offset, apiUrl, isLoading, photoList]);
 
     useEffect(() => {
         setIsLoading(true);
@@ -34,28 +35,24 @@ function PhotoList() {
     const prevUrl = () => {
         if (offset != 0) {
             setOffset((prev) => prev - 20);
-            setLimit((prev) => prev - 20);
             setApiUrl(
-                `https://api.slingacademy.com/v1/sample-data/photos?offset=${offset}&limit=${limit}`
+                `https://api.slingacademy.com/v1/sample-data/photos?offset=${
+                    offset - 20
+                }&limit=20`
             );
+            console.log("offset ", offset);
         }
     };
 
     const nextUrl = () => {
-        if (limit != 132) {
-            if (limit + 20 <= 132) {
-                setOffset((prev) => prev + 20);
-                setLimit((prev) => prev + 20);
-                setApiUrl(
-                    `https://api.slingacademy.com/v1/sample-data/photos?offset=${offset}&limit=${limit}`
-                );
-            } else {
-                setOffset((prev) => prev + 20);
-                setLimit(132);
-                setApiUrl(
-                    `https://api.slingacademy.com/v1/sample-data/photos?offset=${offset}&limit=${limit}`
-                );
-            }
+        if (offset + 20 <= totalPhotos) {
+            setOffset((prev) => prev + 20);
+            setApiUrl(
+                `https://api.slingacademy.com/v1/sample-data/photos?offset=${
+                    offset + 20
+                }&limit=20`
+            );
+            console.log("offset ", offset);
         }
     };
 
@@ -77,14 +74,14 @@ function PhotoList() {
                     </div>
                     <div className="flex gap-3 mb-5">
                         <button
-                            disabled={offset == 0}
+                            disabled={offset === 0}
                             onClick={prevUrl}
                             className="p-2 bg-green-600 rounded-lg text-white font-bold"
                         >
                             Prev
                         </button>
                         <button
-                            disabled={limit == 132}
+                            disabled={offset + 20 >= totalPhotos}
                             onClick={nextUrl}
                             className="p-2 bg-orange-600 rounded-lg text-white font-bold"
                         >

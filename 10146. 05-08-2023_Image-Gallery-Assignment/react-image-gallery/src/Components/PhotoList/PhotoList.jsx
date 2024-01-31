@@ -3,10 +3,8 @@ import Photo from "../Photo/Photo";
 import axios from "axios";
 
 function PhotoList() {
-    const [offset, setOffset] = useState(0);
-
     const [apiUrl, setApiUrl] = useState(
-        `https://api.slingacademy.com/v1/sample-data/photos?offset=${offset}&limit=20`
+        `https://api.slingacademy.com/v1/sample-data/photos?offset=0&limit=20`
     );
     const [isLoading, setIsLoading] = useState(true);
     const [photoList, setPhotolist] = useState([]);
@@ -25,7 +23,7 @@ function PhotoList() {
         } catch (error) {
             console.log("Error:", error);
         }
-    }, [offset, apiUrl, isLoading, photoList]);
+    }, [apiUrl, isLoading, photoList]);
 
     useEffect(() => {
         setIsLoading(true);
@@ -33,27 +31,23 @@ function PhotoList() {
     }, [apiUrl]);
 
     const prevUrl = () => {
-        if (offset != 0) {
-            setOffset((prev) => prev - 20);
-            setApiUrl(
-                `https://api.slingacademy.com/v1/sample-data/photos?offset=${
-                    offset - 20
-                }&limit=20`
-            );
-            console.log("offset ", offset);
-        }
+        const newOffset = Math.max(
+            0,
+            Number(apiUrl.match(/offset=(\d+)/)[1]) - 20
+        );
+        setApiUrl(
+            `https://api.slingacademy.com/v1/sample-data/photos?offset=${newOffset}&limit=20`
+        );
     };
 
     const nextUrl = () => {
-        if (offset + 20 <= totalPhotos) {
-            setOffset((prev) => prev + 20);
-            setApiUrl(
-                `https://api.slingacademy.com/v1/sample-data/photos?offset=${
-                    offset + 20
-                }&limit=20`
-            );
-            console.log("offset ", offset);
-        }
+        const newOffset = Math.min(
+            totalPhotos - 20,
+            Number(apiUrl.match(/offset=(\d+)/)[1]) + 20
+        );
+        setApiUrl(
+            `https://api.slingacademy.com/v1/sample-data/photos?offset=${newOffset}&limit=20`
+        );
     };
 
     return (
@@ -74,14 +68,12 @@ function PhotoList() {
                     </div>
                     <div className="flex gap-3 mb-5">
                         <button
-                            disabled={offset === 0}
                             onClick={prevUrl}
                             className="p-2 bg-green-600 rounded-lg text-white font-bold"
                         >
                             Prev
                         </button>
                         <button
-                            disabled={offset + 20 >= totalPhotos}
                             onClick={nextUrl}
                             className="p-2 bg-orange-600 rounded-lg text-white font-bold"
                         >

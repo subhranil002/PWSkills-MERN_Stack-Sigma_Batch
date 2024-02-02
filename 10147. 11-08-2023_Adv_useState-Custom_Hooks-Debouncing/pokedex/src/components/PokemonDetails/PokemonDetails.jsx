@@ -2,9 +2,9 @@ import React from "react";
 import { useParams } from "react-router-dom";
 import usePokemonDetails from "../../hooks/usePokemondetails";
 
-function PokemonDetails() {
+function PokemonDetails({ pokemonName }) {
     const { id } = useParams();
-    const { pokemon, isLoading } = usePokemonDetails(id);
+    const { pokemon, isLoading } = usePokemonDetails(id, pokemonName);
 
     return (
         <div>
@@ -44,7 +44,9 @@ function PokemonDetails() {
                             <p>More {pokemon.types[0]} Type Pokemons</p>
                             <ul>
                                 {pokemon.similarPokemons.map((p) => (
-                                    <li key={p.pokemon.url}>{p.pokemon.name}</li>
+                                    <li key={p.pokemon.url}>
+                                        {p.pokemon.name}
+                                    </li>
                                 ))}
                             </ul>
                         </div>

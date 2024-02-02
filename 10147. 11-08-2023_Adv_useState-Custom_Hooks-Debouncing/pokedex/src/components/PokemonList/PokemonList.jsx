@@ -2,9 +2,7 @@ import Pokemon from "../Pokemon/Pokemon";
 import usePokemonList from "../../hooks/usePokemonList";
 
 function PokemonList() {
-    const { pokemonListState, setPokemonListState } = usePokemonList(
-        "https://pokeapi.co/api/v2/pokemon"
-    );
+    const { pokemonListState, setPokemonListState } = usePokemonList();
 
     return (
         <div className="flex flex-col items-center justify-center gap-12 w-full">

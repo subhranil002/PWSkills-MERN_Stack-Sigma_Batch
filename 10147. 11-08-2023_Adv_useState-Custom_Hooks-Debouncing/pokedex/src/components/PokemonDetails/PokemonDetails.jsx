@@ -1,38 +1,10 @@
-import axios from "axios";
-import React, { useEffect, useState } from "react";
+import React from "react";
 import { useParams } from "react-router-dom";
-import usePokemonList from "../../hooks/usePokemonList.js";
+import usePokemonDetails from "../../hooks/usePokemondetails";
 
 function PokemonDetails() {
     const { id } = useParams();
-    const [pokemon, setPokemon] = useState({});
-    const [isLoading, setIsLoading] = useState(true);
-
-    async function downloadPokemon() {
-        try {
-            const response = await axios.get(
-                `https://pokeapi.co/api/v2/pokemon/${id}`
-            );
-
-            setPokemon({
-                name: response.data.name,
-                image: response.data.sprites.other.dream_world.front_default,
-                weight: response.data.weight,
-                height: response.data.height,
-                types: response.data.types.map((t) => t.type.name),
-            });
-
-            setIsLoading(false);
-        } catch (error) {
-            console.log(error);
-        }
-    }
-
-    const [pokemonListState] = usePokemonList("https://pokeapi.co/api/v2/type/fire", true);
-
-    useEffect(() => {
-        downloadPokemon();
-    }, []);
+    const { pokemon, isLoading } = usePokemonDetails(id);
 
     return (
         <div>
@@ -67,12 +39,16 @@ function PokemonDetails() {
                         </div>
                     </div>
 
-                    <div>
-                        <p>More Fire Type Pokemons</p>
-                        <ul>
-                            {pokemonListState.pokemonList.map((p)=> <li key={p.pokemon.url}>{p.pokemon.list}</li>)}
-                        </ul>
-                    </div>
+                    {pokemon.types && pokemon.similarPokemons && (
+                        <div>
+                            <p>More {pokemon.types[0]} Type Pokemons</p>
+                            <ul>
+                                {pokemon.similarPokemons.map((p) => (
+                                    <li key={p.pokemon.url}>{p.pokemon.name}</li>
+                                ))}
+                            </ul>
+                        </div>
+                    )}
                 </div>
             )}
         </div>
